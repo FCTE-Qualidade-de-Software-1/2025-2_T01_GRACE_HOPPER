@@ -6,12 +6,13 @@ nav:
   - Home: index.md
   - Fase:
     - Fase 1:
-      - Apresentação: apresentacao.md
-      - Steakholders: steakholders.md
-      - Análise de Riscos: analise_de_riscos.md
-      - EAP: eap.md
-      - Cronograma: cronograma.md
-      - Orçamento: orcamento.md
+      - Apresentação: fase1/apresentacao.md
+      - Stakeholders: fase1/stakeholders.md
+      - Tipo de Produto: fase1/tipo_produto.md
+      - Modelo de Qualidade: fase1/modelo_qualidade.md
+      - Características: fase1/caracteristicas.md
+      - Escopo: fase1/escopo.md
+      - ODS: fase1/ods.md
     - Fase 2: fase2.md
     - Fase 3: fase3.md
     - Fase 4: fase4.md
@@ -23,19 +24,15 @@ theme:
     code: Roboto Mono
   language: pt-BR
   features:
-    - navigation.tabs
-    - navigation.top
-    - search.highlight
-    - search.suggest
-    - toc.integrate
+    - navigation.top         
+    - navigation.sections    
+    - toc.integrate         
+    - content.code.copy      
     - content.code.annotate
     - content.code.copy
     - content.code.fold
     - content.tabs.link
-    - header.autohide
-    - navigation.sections
-    - navigation.instant
-    - navigation.expand   
+    
   
   palette:
     scheme: default

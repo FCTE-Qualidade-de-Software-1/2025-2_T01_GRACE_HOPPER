@@ -5,13 +5,13 @@ layout: default
 
 # Grace Hopper
 
-Bem-vindo ao site institucional de **Grace Hopper**.  
-Aqui você encontrará informações e conteúdos organizados.
+Bem-vindo ao GitPages da equipe Grace Hopper da matéria de Qualidade de Software 1 do segundo semestre do ano de 2025. Nossa equipe é composta pelos integrantes:
+
 
 ## Menu
 
 - [Home](index.md)
-- [Fase 1](fase1.md)
+- [Fase 1](fase1/apresentacao.md)
 
 ---
 
