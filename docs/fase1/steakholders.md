@@ -1,11 +1,9 @@
 ---
-title: Stakeholders Fase 1
+title: Stakeholders
 layout: default
 ---
 
 # Stakeholders
 
-### 2.2 Resultados esperados
+### 2.2 Partes Interessadas
 - Requisitante e partes interessadas (comprador, fornecedor, desenvolvedor, operador, etc)
-- Descrição estruturada do software selecionado para avaliação
-- Classificação do tipo de produto

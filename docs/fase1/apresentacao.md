@@ -1,9 +1,9 @@
 ---
-title: Apresentação Fase 1
+title: Apresentação
 layout: default
 ---
 
-# Fase 1 - Apresentação
+# Apresentação
 
 ## 2.1 Objetivo
 Executar a Fase 1 para definir os requisitos de avaliação da qualidade do software selecionado pela equipe, incluindo:

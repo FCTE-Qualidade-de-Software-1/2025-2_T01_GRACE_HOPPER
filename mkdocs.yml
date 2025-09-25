@@ -24,20 +24,26 @@ theme:
     code: Roboto Mono
   language: pt-BR
   features:
-    - navigation.top         
-    - navigation.sections    
-    - toc.integrate         
-    - content.code.copy      
-    - content.code.annotate
-    - content.code.copy
-    - content.code.fold
-    - content.tabs.link
-    
-  
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
-    scheme: default
-    accent: indigo
-    primary: indigo
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: teal
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+    - scheme: high-contrast
+      primary: black
+      accent: yellow
+      toggle:
+        icon: material/weather-cloudy-alert
+        name: Switch to high contrast
 
 extra:
   generator: false
