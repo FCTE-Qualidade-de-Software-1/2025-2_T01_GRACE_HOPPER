@@ -1,0 +1,47 @@
+site_name: Grace Hopper
+
+repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER
+
+nav:
+  - Home: index.md
+  - Fase:
+    - Fase 1:
+      - Apresentação: apresentacao.md
+      - Steakholders: steakholders.md
+      - Análise de Riscos: analise_de_riscos.md
+      - EAP: eap.md
+      - Cronograma: cronograma.md
+      - Orçamento: orcamento.md
+    - Fase 2: fase2.md
+    - Fase 3: fase3.md
+    - Fase 4: fase4.md
+
+theme:
+  name: material    
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+    - content.code.fold
+    - content.tabs.link
+    - header.autohide
+    - navigation.sections
+    - navigation.instant
+    - navigation.expand   
+  
+  palette:
+    scheme: default
+    accent: indigo
+    primary: indigo
+
+extra:
+  generator: false
+    
