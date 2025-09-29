@@ -20,7 +20,7 @@ O objetivo de negócio principal é **aplicar conceitos de qualidade de software
 
 ### **Propósito da Avaliação e Melhoria de Qualidade: Funcionalidade e Confiabilidade**
 
-O propósito desta avaliação de qualidade é analisar e propor melhorias para o projeto Grace Hopper, com foco específico em **Funcionalidade** e **Confiabilidade**. Estes dois atributos são cruciais para a experiência do usuário e para o cumprimento dos objetivos educacionais do projeto.
+O propósito desta avaliação de qualidade é analisar e propor melhorias para o projeto DF em  OBRAS, com foco específico em **Funcionalidade**, **Manutenabilidade** e **Eficiência**. Estes dois atributos são cruciais para a experiência do usuário e para o cumprimento dos objetivos educacionais do projeto.
 
 ## **Conexão com os ODS da ONU**
 
@@ -43,12 +43,8 @@ Analisa a capacidade do software em oferecer funções que atendam de forma comp
 
 Esta característica relaciona-se diretamente ao propósito do projeto de demonstrar competência técnica em desenvolvimento de software.
 
-#### **Confiabilidade**
-Considera a capacidade do software de manter seu nível de desempenho quando usado sob condições especificadas, incluindo:
-- Maturidade
-- Disponibilidade
-- Tolerância a falhas
-- Recuperabilidade
+#### **Manutenabilidade**
+
 
 Esta característica está conectada ao propósito do projeto de estabelecer bases sólidas para desenvolvimento futuro.
 
@@ -56,22 +52,15 @@ Esta característica está conectada ao propósito do projeto de estabelecer bas
 
 | Característica           | Nível de Ênfase | 
 |--------------------------|-----------------|
-| Adequação Funcional      | 5 |
-| Confiabilidade           | 5 | 
-| Usabilidade              | 3 | 
-| Eficiência de Desempenho | 2 | 
-| Manutenibilidade         | 4 | 
-| Portabilidade            | 2 |
-| Compatibilidade          | 2 |
-| Segurança                | 3 | 
+| Eficiência    | 4 |
+| Funcionalidade    | 3 |
+| Manutenabilidade    | 5 |
 
-### **Classificação do Tipo de Produto**
 
-O projeto Grace Hopper pode ser classificado como um **software educacional/acadêmico**, desenvolvido para fins de aprendizado e demonstração de competências técnicas. É um produto customizado, desenvolvido especificamente para atender aos objetivos da disciplina de Qualidade de Software.
 
 ### **Escopo, profundidade e objetos de avaliação**
 
-O escopo desta avaliação contempla o projeto Grace Hopper em sua versão atual, considerando seu uso no contexto acadêmico. A profundidade da análise será focada nas características de qualidade Funcionalidade e Confiabilidade. Os objetos de avaliação correspondem aos componentes principais do sistema e sua capacidade de atender aos requisitos estabelecidos.
+O escopo desta avaliação contempla o projeto DF EM OBRAS em sua versão atual, considerando seu uso. A profundidade da análise será focada nas características de qualidade Funcionalidade e Confiabilidade. Os objetos de avaliação correspondem aos componentes principais do sistema e sua capacidade de atender aos requisitos estabelecidos.
 
 ### **Requisitantes e Partes Interessadas**
 
@@ -87,8 +76,9 @@ As principais partes interessadas incluem:
 
 | 🎓 Matrícula | 🙋 Nome completo | 📊 Contribuição (%) |
 |-------------|------------------|---------------------|
-| 123456789 | [Nicollas Gabriel](https://github.com/Nicollaxs) | 20.0 |
-| 123456790 | [Artur Pereira ](https://github.com/R2PX) | 20.0 |
-| 123456791 | [Ana Luiza Borba De Abrantes](https://github.com/luabrantess) | 20.0 |
-| 123456792 | [José Felipe Oliveira](https://github.com/Jose1277) | 20.0 |
-| 123456793 | [Membro 5](https://github.com/membro5) | 20.0 |
+| 123456789 | [Nicollas Gabriel](https://github.com/Nicollaxs) | 16,6 |
+| 123456790 | [Artur Pereira ](https://github.com/R2PX) | 16,6 |
+| 123456791 | [Ana Luiza Borba De Abrantes](https://github.com/luabrantess) | 16,6 |
+| 123456792 | [José Felipe Oliveira](https://github.com/Jose1277) | 16,6 |
+| 123456793 | [Membro 5](https://github.com/membro5) | 16,6 |
+| 123456793 | [Membro 5](https://github.com/membro5) | 16,6 |
