@@ -72,5 +72,3 @@ mkdocs serve
 | 1.0    | 29/09/25 | Estrutura inicial MkDocs | Seu Nome      | Revisor |
 
 ---
-
-<div align="right">Feito com amor usando <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div>
