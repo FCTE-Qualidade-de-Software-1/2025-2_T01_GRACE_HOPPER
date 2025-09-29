@@ -1,3 +1,3 @@
-# 📋 Fase 02
+# Fase 02
 
 Conteúdo da Fase 02.
