@@ -1,73 +1,20 @@
-site_name: Grace Hopper
+site_name: Projeto Grace Hopper
 site_url: https://fcte-qualidade-de-software-1.github.io/2025-2_T01_GRACE_HOPPER/
-
+docs_dir: docs
 repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER
-
+repo_name: FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER
 nav:
   - Home: index.md
   - Fases:
-    - Fase 1: fases/fases01.md
-    - Fase 2: fases/fases02.md
-    - Fase 3: fases/fases03.md
-    - Fase 4: fases/fases04.md
-
+      - Fase 01: fases/fases01.md
+      - Fase 02: fases/fases02.md
+      - Fase 03: fases/fases03.md
+      - Fase 04: fases/fases04.md
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/mathjax.js
 theme:
   name: material
-  font:
-    text: Roboto
-    code: Roboto Mono
-  language: pt
-  features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.highlight
-    - search.share
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-      primary: teal
-      accent: teal
-
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-      primary: teal
-      accent: teal
-
-extra:
-  generator: false
-
-extra_css:
-  - stylesheets/extra.css?v=2.0
-
-extra_javascript:
-  - javascripts/mathjax.js?v=2.0
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - attr_list
-  - md_in_html
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
 plugins:
-  - search:
-      lang: pt
-    
+  - minify
