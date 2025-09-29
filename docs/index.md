@@ -1,12 +1,15 @@
-## Descrição
 
-Bem-vindo à documentação do projeto Grace Hopper!
+
+# Avaliação Grace Hopper
+
 
 ## Pré-requisitos
 
 - Python 3.8+
 - Git
 - MkDocs e MkDocs Material
+
+---
 
 ## Ambiente
 
@@ -18,11 +21,15 @@ mkdocs-env\Scripts\activate
 pip install mkdocs mkdocs-material mkdocs-minify-plugin
 ```
 
+---
+
 ## Dependências do projeto
 
 - mkdocs
 - mkdocs-material
 - mkdocs-minify-plugin
+
+---
 
 ## Execução
 
@@ -30,25 +37,33 @@ pip install mkdocs mkdocs-material mkdocs-minify-plugin
 mkdocs serve
 ```
 
+---
+
 ## Acesso aos serviços
 
 | Serviço              | URL                                 |
-|---------------------|-------------------------------------|
-| Documentação Local  | http://127.0.0.1:8000               |
-| Repositório         | [link do seu repositório]            |
+|----------------------|-------------------------------------|
+| Documentação Local   | [http://127.0.0.1:8000](http://127.0.0.1:8000) |
+| Repositório          | [link do seu repositório](#)         |
+
+---
 
 ## Documentação
 
-- **[Fase 01](fases/fases01.md)**
-- **[Fase 02](fases/fases02.md)**
-- **[Fase 03](fases/fases03.md)**
-- **[Fase 04](fases/fases04.md)**
+- [Fase 01](fases/fases01.md)
+- [Fase 02](fases/fases02.md)
+- [Fase 03](fases/fases03.md)
+- [Fase 04](fases/fases04.md)
+
+---
 
 ## Equipe
 
-| Nome | Matrícula | GitHub |
-|------|-----------|--------|
-| [Seu Nome](#) | 000000000 | [@seuusuario](#) |
+| Nome           | Matrícula   | GitHub         |
+|----------------|-------------|---------------|
+| [Seu Nome](#)  | 000000000   | [@seuusuario](#) |
+
+---
 
 ## Histórico de Versões
 
@@ -58,4 +73,4 @@ mkdocs serve
 
 ---
 
-*Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)*
+<div align="right">Feito com amor usando <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div>
