@@ -1,0 +1,7 @@
+/* Arquivo de estilos customizados para o projeto Grace Hopper */
+:root {
+  --md-primary-fg-color:        #1976d2;
+  --md-primary-fg-color--light: #42a5f5;
+  --md-primary-fg-color--dark:  #1565c0;
+  --md-accent-fg-color:         #2196f3;
+}
