@@ -6,7 +6,15 @@ O projeto tem como objetivo aplicar as melhores práticas de engenharia de softw
 
 ## **Objetivo do Projeto**
 
-O objetivo de negócio principal é **aplicar conceitos de qualidade de software em um contexto acadêmico**, desenvolvendo competências em:
+O DFemObras-2025.1 é classificado como um software para gestão e transparência pública, geralmente implementado como um sistema de informação baseado na Web (Pressman) e um protótipo acadêmico de código aberto (IEEE 1062).
+
+A arquitetura do DFemObras é tipicamente modular, composta por componentes que interagem para fornecer a funcionalidade de consulta e registro de dados de obras. A arquitetura de alto nível pode ser ilustrada como um sistema de três camadas:
+
+Interface do Usuário (Frontend): Responsável pela apresentação dos dados e interação com o usuário (cidadãos, gestores).
+
+Camada de Aplicação (Backend/APIs): Onde reside a lógica de negócio, processando requisições e gerenciando o acesso aos dados.
+
+Armazenamento de Dados (Database): Onde são persistidos os dados sobre as obras, localização e status.
 
 ### **Pilares Estratégicos**
 
