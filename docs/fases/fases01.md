@@ -6,15 +6,7 @@ O projeto tem como objetivo aplicar as melhores práticas de engenharia de softw
 
 ## **Objetivo do Projeto**
 
-O DFemObras-2025.1 é classificado como um software para gestão e transparência pública, geralmente implementado como um sistema de informação baseado na Web (Pressman) e um protótipo acadêmico de código aberto (IEEE 1062).
-
-A arquitetura do DFemObras é tipicamente modular, composta por componentes que interagem para fornecer a funcionalidade de consulta e registro de dados de obras. A arquitetura de alto nível pode ser ilustrada como um sistema de três camadas:
-
-Interface do Usuário (Frontend): Responsável pela apresentação dos dados e interação com o usuário (cidadãos, gestores).
-
-Camada de Aplicação (Backend/APIs): Onde reside a lógica de negócio, processando requisições e gerenciando o acesso aos dados.
-
-Armazenamento de Dados (Database): Onde são persistidos os dados sobre as obras, localização e status.
+O objetivo de negócio principal é **aplicar conceitos de qualidade de software em um contexto acadêmico**, desenvolvendo competências em:
 
 ### **Pilares Estratégicos**
 
@@ -24,7 +16,7 @@ Armazenamento de Dados (Database): Onde são persistidos os dados sobre as obras
 - **Construir uma base sólida**: Criar fundamentos para projetos futuros mais complexos
 
 !!! note "Propósito Central"
-    Em essência, o projeto Grace Hopper busca criar valor educacional e técnico ao aplicar conceitos teóricos de qualidade de software em um projeto prático e colaborativo.
+    Em essência, a avaliação da equipe busca criar valor educacional e técnico ao aplicar conceitos teóricos de qualidade de software em um projeto prático e colaborativo.
 
 ### **Propósito da Avaliação e Melhoria de Qualidade: Funcionalidade e Confiabilidade**
 
@@ -39,7 +31,7 @@ O propósito desta avaliação de qualidade é analisar e propor melhorias para 
 
 ## **Modelo de Qualidade Utilizado**
 
-A avaliação do projeto Grace Hopper será realizada com base no modelo da norma **ISO/IEC 25010**, enfatizando as seguintes características de qualidade:
+A avaliação será realizada com base no modelo da norma **ISO/IEC 25010**, enfatizando as seguintes características de qualidade:
 
 ### **Características Priorizadas**
 
@@ -49,7 +41,7 @@ Analisa a capacidade do software em oferecer funções que atendam de forma comp
 - Correção funcional
 - Pertinência funcional
 
-Esta característica relaciona-se diretamente ao propósito do projeto de demonstrar competência técnica em desenvolvimento de software.
+Esta característica relaciona-se diretamente ao propósito da avaliação é demonstrar competência técnica em desenvolvimento de software.
 
 #### **Manutenabilidade**
 
@@ -88,5 +80,5 @@ As principais partes interessadas incluem:
 | 123456790 | [Artur Pereira ](https://github.com/R2PX) | 16,6 |
 | 123456791 | [Ana Luiza Borba De Abrantes](https://github.com/luabrantess) | 16,6 |
 | 123456792 | [José Felipe Oliveira](https://github.com/Jose1277) | 16,6 |
-| 123456793 | [Membro 5](https://github.com/membro5) | 16,6 |
-| 123456793 | [Membro 5](https://github.com/membro5) | 16,6 |
+| 123456793 | [Artur da Silva](https://github.com/membro5) | 16,6 |
+| 123456793 | [Carlos Eduardo](https://github.com/membro5) | 16,6 |
