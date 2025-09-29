@@ -4,18 +4,11 @@ repo_url: https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPE
 
 nav:
   - Home: index.md
-  - Fase:
-    - Fase 1:
-      - Apresentação: fase1/apresentacao.md
-      - Stakeholders: fase1/stakeholders.md
-      - Tipo de Produto: fase1/tipo_produto.md
-      - Modelo de Qualidade: fase1/modelo_qualidade.md
-      - Características: fase1/caracteristicas.md
-      - Escopo: fase1/escopo.md
-      - ODS: fase1/ods.md
-    - Fase 2: fase2.md
-    - Fase 3: fase3.md
-    - Fase 4: fase4.md
+  - Fases:
+    - Fase 1: fases/fases01.md
+    - Fase 2: fases/fases02.md
+    - Fase 3: fases/fases03.md
+    - Fase 4: fases/fases04.md
 
 theme:
   name: material    
@@ -47,4 +40,19 @@ theme:
 
 extra:
   generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
     
