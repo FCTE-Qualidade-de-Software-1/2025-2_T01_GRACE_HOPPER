@@ -40,13 +40,23 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material mkdocs-minify-plugin pymdown-extensions
+          
+      - name: Verify installation
+        run: |
+          mkdocs --version
+          python -c "import material; print('Material version:', material.__version__)"
 
       - name: Build MkDocs
         run: |
-          mkdocs build --clean --verbose
+          mkdocs build --clean --strict
           
       - name: Add .nojekyll file
-        run: touch ./site/.nojekyll
+        run: echo "" > ./site/.nojekyll
+        
+      - name: Add cache headers
+        run: |
+          find ./site -name "*.css" -exec touch {} \;
+          find ./site -name "*.js" -exec touch {} \;
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
