@@ -7,6 +7,8 @@
 ## 1. Propósito da Avaliação e Uso Pretendido dos Resultados
 
 O propósito desta avaliação de qualidade é analisar e propor melhorias para o projeto DFemObras, um sistema de transparência e acompanhamento de obras públicas do Distrito Federal. Os principais crtérios levados em consideração pelo grupo foram Funcionalidade, Manutenabilidade e Eficiência.
+Nossa escolha pelo software DFemObras se deve ao fato de ser um sistema originário na Universidade de Brasília do campus de Engenharias no Gama, portanto, é mais acessivel para nós estudantes, além do fato de incentivar a produção intelectual local.
+Por ser um projeto de iniciativa estudantil, não temos expectativas de robustez de código, de normas de acessibilidade, de critérios de segurança, de fácil portabilidade, entre outras caracteristicas de software. Entretanto, caso tenha, será um grande achado para a universidade, ademais, nosso foco é incentivar a melhoria desse sistema.
 
 ## 2. Requisitante e Partes Interessadas
 
@@ -18,6 +20,8 @@ A tabela a seguir identifica as partes interessadas no processo de avaliação d
 | Professora/Disciplina       | Requisitante | Avaliar a qualidade do produto final como requisito da disciplina de Qualidade de Software. |
 | Gestores Públicos do DF     | Decisor      | Ter uma ferramenta precisa e confiável para monitorar o andamento das obras. |
 | Comunidade/Cidadãos do DF   | Usuário Final| Ter acesso rápido e transparente a informações atualizadas sobre obras públicas em sua região. |
+
+Para isso, consideramos a totalidade de todos os interessados, tendo em vista que consideramos importante todos os pontos de vista. Como nossa avaliação deve ser completa, queremos opiniões desde o código até o usuário final.
 
 ## 3. Tipo de Produto e Descrição Estruturada do Software
 
@@ -71,6 +75,8 @@ O escopo desta avaliação se concentra na análise da Funcionalidade (capacidad
 O projeto DFemObras contribui para o seguinte Objetivo de Desenvolvimento Sustentável (ODS) da ONU, focando na melhoria da governança e inclusão digital:
 
 - **ODS 9 (Indústria, Inovação e Infraestrutura):** Utiliza a inovação tecnológica para criar uma infraestrutura de dados digitais aberta e acessível, melhorando o monitoramento e a eficiência na execução de obras.
+
+Consideramos que esse sistema utiliza-se da ODS 9 devido ao fato de estar relacionado com as obras existente na capital do pais.
 
 
 ## Tabela de Contribuição da Equipe
