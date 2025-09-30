@@ -11,9 +11,11 @@ nav:
       - Fase 03: fases/fases03.md
       - Fase 04: fases/fases04.md
 extra_css:
-  - stylesheets/extra.css
+  - css/extra.css
+
 extra_javascript:
-  - javascripts/mathjax.js
+  - js/mathjax.js
+
 theme:
   name: material
 plugins:
