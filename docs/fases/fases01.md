@@ -27,13 +27,12 @@ Para isso, consideramos a totalidade de todos os interessados, tendo em vista qu
 
 ## 3. Tipo de Produto e Descrição Estruturada do Software
 
-O DFemObras é classificado como um software para gestão e transparência pública, geralmente implementado como um sistema de informação baseado na Web (Pressman) e um protótipo acadêmico de código aberto (IEEE 1062).
+## Arquitetura Cliente-Servidor
+O sistema tem uma arquitetura cliente-servidor multicamadas, mas sem a camada de banco de dados, pois usa os dados direto da API. Funciona como _middleware_, no qual os dados são consumidos diretamente das APIs externas e apresentadas ao usuário final em uma interface interativa. 
 
-A arquitetura do DFemObras é tipicamente modular, composta por componentes que interagem para fornecer a funcionalidade de consulta e registro de dados de obras. A arquitetura de alto nível pode ser ilustrada como um sistema de três camadas:
-
-- **Interface do Usuário (Frontend):** Responsável pela apresentação dos dados e interação com o usuário (cidadãos, gestores).
-- **Camada de Aplicação (Backend/APIs):** Onde reside a lógica de negócio, processando requisições e gerenciando o acesso aos dados.
-- **Armazenamento de Dados (Database):** Onde são persistidos os dados sobre as obras, localização e status.
+1. A **camada de apresentação** usa HTML, CSS e JavaScript, além de bibliotecas para a plotagem dos mapas. Essa camada se comunica diretamente com o back-end por meio de requisições HTTP.
+2. A **camada de aplicação** foi construída com Node.js com gerenciamento de pacotes com NPM. Essa camada faz o tratamento dos dados recebidos pela API externa, como a geração de gráficos, de mapas, de valores.
+3. A **camada de serviços externas** está relacionada com o uso da API governamental, anterior ao tratamento dos dados no back-end. Esses dados chegam brutos ao desenvolvedor.
 
 ## 4. Modelo de Qualidade
 
