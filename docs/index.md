@@ -18,14 +18,14 @@ Com a finalidade de apoiar o desenvolvimento científico dos universitários, es
 
 ## Equipe
 
-| Matrícula | Nome completo |  GitHub  |
-|-------------|------------------|---------------------|
-| 211062802 | [Nicollas Gabriel Oliveira Sousa ](https://github.com/Nicollaxs) |  |
-| 200014226 | [Ana Luiza Borba de Abrantes](https://github.com/luabrantess) |  [luabrantess](https://github.com/luabrantess) |
-| 211030934 | [ARTUR DA SILVA PEREIRA](https://github.com/R2PX) |  |
-| 222022064 | [CARLOS EDUARDO DE SOUSA PAZ](https://github.com/dudupaz) |  |
-| 221031120 | [ARTHUR FONSECA VALE](https://github.com/arthurfonsecaa) |  |
-| 221008211 | [JOSE FELIPE DUARTE GUEDES DE OLIVEIRA](https://github.com/Jose1277) |  |
+| Matrícula | Nome completo |
+|-------------|------------------|
+| 211062802 | [Nicollas Gabriel Oliveira Sousa ](https://github.com/Nicollaxs) |  
+| 200014226 | [Ana Luiza Borba de Abrantes](https://github.com/luabrantess) | 
+| 211030934 | [ARTUR DA SILVA PEREIRA](https://github.com/R2PX) |  
+| 222022064 | [CARLOS EDUARDO DE SOUSA PAZ](https://github.com/dudupaz) |  
+| 221031120 | [ARTHUR FONSECA VALE](https://github.com/arthurfonsecaa) | 
+| 221008211 | [JOSE FELIPE DUARTE GUEDES DE OLIVEIRA](https://github.com/Jose1277) | 
 
 
 ---
