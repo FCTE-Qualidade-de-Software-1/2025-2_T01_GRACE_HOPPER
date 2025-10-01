@@ -36,16 +36,6 @@ pip install mkdocs mkdocs-material mkdocs-minify-plugin
 ```bash
 mkdocs serve
 ```
-
----
-
-## Acesso aos serviços
-
-| Serviço              | URL                                 |
-|----------------------|-------------------------------------|
-| Documentação Local   | [http://127.0.0.1:8000](http://127.0.0.1:8000) |
-| Repositório          | [link do seu repositório](#)         |
-
 ---
 
 ## Documentação
@@ -69,6 +59,7 @@ mkdocs serve
 
 | Versão | Data     | Descrição                | Autor         | Revisor |
 |--------|----------|--------------------------|---------------|---------|
-| 1.0    | 29/09/25 | Estrutura inicial MkDocs | Seu Nome      | Revisor |
+| 1.0    | 29/09/25 | Estrutura inicial MkDocs | Nicolas       | Revisor |
+| 1.1    | 01/10/25 | Atualização da fase 1    | Ana Luiza     | Revisor |
 
 ---
