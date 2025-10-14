@@ -123,3 +123,27 @@ A interpretação dos resultados seguirá a seguinte escala de qualidade:
 
 A aplicação do modelo GQM, apoiada por análises estáticas, testes funcionais, medições de desempenho e coleta de percepções de stakeholders, permite uma avaliação robusta e objetiva da qualidade do DFemObras. A metodologia adotada garante que cada afirmação sobre a qualidade do sistema esteja vinculada a uma métrica mensurável ou a uma avaliação documentada, o que aumenta a credibilidade das recomendações.
 
+### Histórico de Versões
+
+| Versão | Data       | Autor(es)                  | Descrição das Alterações                                    |
+|--------|------------|---------------------------|------------------------------------------------------------|
+| 1.0    | 10/10/2025 | Nicolas                | Criação do documento com estrutura inicial.               |
+| 1.1    | 12/10/2025 | Ana Luiza Borba / Equipe  | Inclusão de GQM, métricas e critérios de avaliação.       |
+| 1.2    | 14/10/2025 | Ana Luiza Borba / Equipe  | Revisão do texto, formatação e inclusão de fórmulas de métricas. |
+| 1.3    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, histórico de versões, referências e declaração de uso de IA. |
+
+---
+
+### Referências
+
+1. **ISO/IEC 25010:2011**. *Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models*.  
+2. UNB-MDS (2025). *DFemObras-2025.1 Project Repository*. Universidade de Brasília, Campus Gama.  
+3. ONU (2025). *Objetivos de Desenvolvimento Sustentável no Brasil*. Disponível em: [https://brasil.un.org/pt-br/sdgs](https://brasil.un.org/pt-br/sdgs)  
+4. Pressman, R. S. (2016). *Engenharia de Software – Uma Abordagem Profissional*. 8ª edição, McGraw-Hill.  
+5. Sommerville, I. (2011). *Software Engineering*, 9th Edition. Pearson.  
+
+---
+
+### Declaração de Uso de Inteligência Artificial
+
+Este documento foi estruturado, revisado e aprimorado com o apoio de ferramentas de inteligência artificial para correção gramatical, revisão de estilo, padronização e clareza de texto. Todas as informações técnicas, cálculos, tabelas e análises foram elaboradas pelo(s) autor(es) humanos com base nos dados do sistema **DFemObras-2025.1**. O uso da IA teve caráter auxiliar, não influenciando o conteúdo técnico nem as decisões metodológicas.
