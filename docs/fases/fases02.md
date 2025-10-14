@@ -19,3 +19,7 @@
 #### Manutenibilidade
 #### Funcionalidade
 #### EFiciencia
+
+# 5. Critérios
+
+# 6. Métricas
