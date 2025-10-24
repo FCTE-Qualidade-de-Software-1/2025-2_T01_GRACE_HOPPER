@@ -545,12 +545,11 @@ Esta fase preparatória é fundamental para garantir que as conclusões e recome
 
 ### Histórico de Versões
 
-| Versão | Data       | Autor(es)                  | Descrição das Alterações                                                         | Revisor |
-|--------|------------|---------------------------|----------------------------------------------------------------------------------|---------|
-| 1.0    | 10/10/2025 | Nicolas                   | Criação do documento com estrutura inicial.                                       |         |
-| 1.1    | 12/10/2025 | Ana Luiza Borba / Equipe  | Inclusão de GQM, métricas e critérios de avaliação.                              |         |
-| 1.2    | 14/10/2025 | Ana Luiza Borba / Equipe  | Revisão do texto, formatação e inclusão de fórmulas de métricas.                 |         |
-| 1.3    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, histórico de versões, referências e declaração de uso de IA.     |         |
-| 2.0    | 24/10/2025 | GitHub Copilot            | Reestruturação completa seguindo modelo GQM modular da fase_2.                   |         |
+| Versão | Data       | Autor(es)                          | Descrição das Alterações                                                     |
+|--------|------------|------------------------------------|------------------------------------------------------------------------------|
+| 1.0    | 10/10/2025 | Nicollas Gabriel                   | Criação do documento com estrutura inicial.                                  |
+| 1.1    | 11/10/2025 | Ana Luiza Borba / Equipe           | Inclusão de GQM, métricas e critérios de avaliação.                          |
+| 1.2    | 19/10/2025 | Ana Luiza Borba                           | Revisão do texto, formatação e inclusão de fórmulas de métricas.             |
+| 1.3    | 24/10/2025 | Ana Luiza Borba e Nicollas Gabriel | Ajustes finais, histórico de versões        |
 
 ---
