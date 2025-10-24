@@ -40,84 +40,166 @@ A avaliação foi conduzida segundo o modelo GQM (Goal–Question–Metric), com
 
 # 4. GQM
 ## 4.1 Goal
-#### Manutenibilidade
-Avaliar se o DFemObras foi desenvolvido com boas práticas de engenharia de software, possibilitando fácil manutenção, evolução e reutilização do código, bem como a existência de documentação técnica e testes automatizados.
-#### Funcionalidade
-Avaliar se o DFemObras entrega todas as funcionalidades esperadas, apresentando corretamente as informações sobre as obras públicas (visualização, detalhamento, custos) e garantindo uma experiência consistente entre todos os stakeholders.
-#### Eficiencia
-Avaliar o desempenho do sistema quanto ao tempo de resposta, uso de recursos e infraestrutura de hospedagem, considerando o ambiente de execução Web e o acesso simultâneo de usuários.
-## 4.2 Questions
-#### Manutenibilidade
-1. O código do sistema é modular e segue boas práticas de reutilização de componentes?
-2. O projeto possui documentação técnica detalhada que facilita a manutenção e evolução do sistema?
-3. Existem testes automatizados que asseguram a confiabilidade das principais funcionalidades?
-4. O uso de Inteligência Artificial é controlado, sendo aplicado apenas quando necessário, sem comprometer a manutenção do sistema?
-5. A arquitetura está bem definida e documentada, facilitando futuras expansões?
-#### Funcionalidade
-1. Todas as obras são exibidas corretamente no mapa interativo?
-2. As informações detalhadas de cada obra estão completas e acessíveis ao usuário?
-3. Os custos das obras estão sendo exibidos de forma clara e compreensível?
-4. Todos os stakeholders (usuário final, desenvolvedores e gestores) têm uma experiência de uso consistente e sem falhas?
-5. O sistema mantém sua característica Open Source, permitindo livre acesso e contribuição?
-#### Eficiencia
-1. O tempo médio de resposta do sistema é inferior a 5 segundos para o carregamento das informações?
-2. O sistema está hospedado em ambiente Cloud, garantindo escalabilidade e estabilidade?
-3. O desempenho permanece adequado durante o consumo das APIs externas e a renderização de mapas?
-## 4.3 Metric
-#### Manutenibilidade
-| Métrica                       | Fórmula                                                                   | Método de coleta                                                                   | Interpretação / Observações                                                                                                                             |
-| ----------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Complexidade Ciclomática (CC) | `CC = E - N + 2P` (E = arestas, N = nós, P = componentes conectados)      | Ferramenta de análise estática; calcular por função/módulo e obter média ponderada | Mede a complexidade lógica; valores elevados implicam maior esforço de entendimento e teste. Recomenda-se CC ≤ 10 por função para facilitar manutenção. |
-| Densidade de Comentários (DC) | `DC = (Nº de linhas de comentários / Nº total de linhas de código) × 100` | Contagem por análise estática                                                      | Indica quanto o código está documentado inline; valores aceitáveis típicos 15%–25%, mas deve ser interpretado junto com qualidade dos comentários.      |
-| Cobertura de Testes (CT)      | `CT = (Nº de linhas/testadas / Nº total de linhas) × 100`                 | Relatórios de testes automatizados (coverage)                                      | Mede a extensão dos testes automatizados. Meta recomendada: ≥ 80% em áreas críticas; cobertura baixa indica risco de regressão.                         |
-| Reusabilidade (R)             | `R = (Nº de módulos reutilizados / Nº total de módulos) × 100`            | Inspeção do código e histórico de uso de componentes                               | Mede capacidade de reaproveitamento; maior valor indica arquitetura mais modular e componentes genéricos.                                               |
-| Documentação técnica (DT)     | Escala qualitativa 1–5 (avaliada por checklist)                           | Inspeção manual (presença de README, guias, diagramas)                             | 1 = inexistente; 5 = completa e atualizada. A documentação é crucial para passagem de conhecimento.                                                     |
+# 1. Goal (Objetivo) 1 — Usabilidade
 
+| **Elemento**        | **Definição** |
+|----------------------|---------------|
+| **Analisar**         | O aplicativo Guardiões da Saúde |
+| **Para o propósito de** | Avaliar |
+| **Com respeito a**   | Usabilidade |
+| **Do ponto de vista**| Usuários finais |
+| **No contexto da**   | Disciplina de Qualidade de Software |
 
-#### Funcionalidade
-| Métrica                                     | Fórmula                                                                                     | Método de coleta                                                          | Interpretação / Observações                                                                                   |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Taxa de Funcionalidades Implementadas (TFI) | `TFI = (Funcionalidades implementadas / Funcionalidades planejadas) × 100`                  | Comparação entre backlog/requisitos e implementação atual                 | Indica grau de completude do sistema frente ao escopo esperado.                                               |
-| Taxa de Sucesso de Casos de Teste (TS)      | `TS = (Casos de teste bem-sucedidos / Total de casos de teste) × 100`                       | Execução de suíte de testes funcionais/manual                             | Mede conformidade funcional; meta indicativa ≥ 95% em critérios críticos.                                     |
-| Taxa de Visualização das Obras (TVO)        | `TVO = (Nº de obras exibidas corretamente / Nº total de obras esperadas) × 100`             | Testes funcionais com cruzamento de dados da fonte (API)                  | Mede completude específica da exibição geográfica; valores baixos indicam falhas na ingestão ou renderização. |
-| Completude do Detalhamento (CD)             | `CD = (Nº de obras com todos os campos obrigatórios preenchidos / Nº total de obras) × 100` | Inspeção dos registros exibidos                                           | Avalia se cada obra apresenta os campos essenciais (valor, local, status).                                    |
-| Clareza na exibição de custos (CEC)         | Escala 1–5 via checklist heurístico                                                         | Avaliação heurística de interface (formatação, referências, legibilidade) | Mede se valores são apresentados com contextualização (moeda, fonte, data).                                   |
+---
 
-#### Eficiencia
-| Métrica                           | Fórmula                                                          | Método de coleta                                     | Interpretação / Observações                                                                                                                                   |
-| --------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Tempo Médio de Resposta (TR)      | `TR = (Σ tempo de resposta das requisições) / Nº de requisições` | Medições via DevTools/Lighthouse em cenários típicos | Mede tempo percebido; meta operacional ≤ 5 s para carregamento de dados críticos. Recomenda-se medições em múltiplos horários para capturar variação de rede. |
-| Tempo até Primeiro Conteúdo (FCP) | Medição direta via Lighthouse/DevTools                           | Ferramenta de auditoria                              | Indica rapidez de render inicial; relevante para percepção de desempenho.                                                                                     |
-| Uso de CPU (Ucpu)                 | `Ucpu = (Tempo de CPU usado / Tempo total de execução) × 100`    | Monitoramento durante execução de cenários           | Mede carga de processamento; valores sustentados elevados indicam necessidade de otimização.                                                                  |
-| Uso de Memória (Umem)             | `Umem = (Memória usada / Memória total disponível) × 100`        | Monitoramento no navegador/servidor                  | Mede eficiência no uso de memória; picos altos podem causar instabilidade em ambientes com recursos limitados.                                                |
-| Taxa de Disponibilidade (TD)      | `TD = (Tempo disponível / Tempo total) × 100`                    | Logs de implantação / monitoramento da hospedagem    | Mede uptime; para serviços públicos recomenda-se meta ≥ 99% (SLA).                                                                                            |
-| Hospedagem em Cloud (HC)          | Verificação Sim/Não e documentação                               | Consulta técnica/documentação                        | Confirma se infraestrutura em nuvem está configurada para escalabilidade e redundância.                                                                       |
+# 2. Goal (Objetivo) 2 — Manutenibilidade
 
-# 5. Critérios
+| **Elemento**        | **Definição** |
+|----------------------|---------------|
+| **Analisar**         | O aplicativo Guardiões da Saúde |
+| **Para o propósito de** | Avaliar |
+| **Com respeito a**   | Manutenibilidade |
+| **Do ponto de vista**| Desenvolvedores |
+| **No contexto da**   | Disciplina de Qualidade de Software |
 
-A interpretação dos resultados seguirá a seguinte escala de qualidade:
+---
 
-- Visualização das obras  
-- Detalhamento das obras  
-- Custo das obras  
-- Experiência dos stakeholders  
-- Reutilização do código  
-- Uso de Inteligência Artificial  
-- Open Source  
-- Testes automatizados  
-- Documentação detalhada  
-- Tempo de resposta  
-- Uso de Cloud  
-- Arquitetura definida  
+# 3. Goal (Objetivo) 3 — Eficiência
 
+| **Elemento**        | **Definição** |
+|----------------------|---------------|
+| **Analisar**         | O aplicativo Guardiões da Saúde |
+| **Para o propósito de** | Avaliar |
+| **Com respeito a**   | Eficiência |
+| **Do ponto de vista**| Usuários e equipe de infraestrutura |
+| **No contexto da**   | Disciplina de Qualidade de Software |
 
-| Faixa de Pontuação | Avaliação      |
-| ------------------ | -------------- |
-| **95% a 100%**     | Ótimo          |
-| **85% a 95%**      | Bom            |
-| **75% a 85%**      | Médio          |
-| **Abaixo de 75%**  | Insatisfatório |
+## 4.2 Questions and Metrics
+# Q1 — Usabilidade
 
+**Questão 01:** É possível ver todas as obras?
+
+### Hipóteses
+
+- **Hipótese 1.1:** O sistema mostra todas as obras e suas informações.  
+- **Hipótese 1.2:** O sistema tem um mapa funcional com a visualização das obras.
+
+---
+
+### Métricas
+
+**M1.1 – Questão 01: Hipótese 1.1**
+
+**Detalhes da Métrica**  
+- **Objetivo:** Avaliar a completude da exibição das obras.  
+- **Fórmula:** (Número de obras exibidas corretamente / Total de obras cadastradas) × 100  
+- **Periodicidade:** Semanal  
+- **Valor-alvo:** ≥ 95%  
+- **Coleta:**  
+  1. Comparar o número de obras cadastradas no banco de dados com o número de obras exibidas na interface.  
+  2. Verificar se todas possuem informações completas (nome, status, localização, responsável).  
+  3. Registrar em planilha: data, total de obras, total exibidas, percentual de exibição.  
+- **Responsável:** Equipe de Testes  
+
+---
+
+**M1.2 – Questão 01: Hipótese 1.2**
+
+**Detalhes da Métrica**  
+- **Objetivo:** Avaliar a funcionalidade do mapa de visualização.  
+- **Fórmula:** (Número de carregamentos de mapa bem-sucedidos / Total de tentativas de carregamento) × 100  
+- **Periodicidade:** Diária  
+- **Valor-alvo:** ≥ 98%  
+- **Coleta:**  
+  1. Realizar 5 tentativas diárias de acesso ao mapa.  
+  2. Verificar se o mapa carrega corretamente e exibe os marcadores de obras.  
+  3. Registrar: data, hora, resultado (sucesso/falha), observações.  
+- **Responsável:** Equipe de Testes  
+
+---
+
+# Q2 — Manutenibilidade
+
+**Questão 02:** O sistema tem documentação completa?
+
+### Hipóteses
+
+- **Hipótese 2.1:** O sistema possui documentação que facilita a manutenção.  
+- **Hipótese 2.2:** O sistema é open source e permite melhorias.
+
+---
+
+### Métricas
+
+**M2.1 – Questão 02: Hipótese 2.1**
+
+**Detalhes da Métrica**  
+- **Objetivo:** Avaliar a completude e clareza da documentação técnica.  
+- **Fórmula:** (Número de módulos documentados / Total de módulos existentes) × 100  
+- **Periodicidade:** Mensal  
+- **Valor-alvo:** ≥ 90%  
+- **Coleta:**  
+  1. Verificar a existência de documentação para cada módulo (instalação, API, arquitetura, testes).  
+  2. Avaliar se a documentação está atualizada e compreensível.  
+  3. Registrar em planilha: módulo, status (documentado/sim/não), observações.  
+- **Responsável:** Equipe de Desenvolvimento  
+
+---
+
+**M2.2 – Questão 02: Hipótese 2.2**
+
+**Detalhes da Métrica**  
+- **Objetivo:** Verificar se o sistema é aberto a contribuições externas.  
+- **Fórmula:** (Número de contribuições aceitas / Total de pull requests submetidos) × 100  
+- **Periodicidade:** Mensal  
+- **Valor-alvo:** ≥ 80%  
+- **Coleta:**  
+  1. Analisar o repositório open source e o histórico de contribuições.  
+  2. Registrar número de pull requests enviados, aceitos e rejeitados.  
+  3. Documentar em planilha: data, contribuidor, status da PR, observações.  
+- **Responsável:** Equipe de Desenvolvimento  
+
+---
+
+# Q3 — Eficiência
+
+**Questão 03:** O sistema responde em menos de 10 segundos?
+
+### Hipóteses
+
+- **Hipótese 3.1:** O sistema está hospedado na nuvem e tem resposta rápida.  
+- **Hipótese 3.2:** O sistema mantém tempos de resposta dentro do limite esperado.
+
+---
+
+### Métricas
+
+**M3.1 – Questão 03: Hipótese 3.1**
+
+**Detalhes da Métrica**  
+- **Objetivo:** Avaliar o tempo médio de resposta do sistema em ambiente real.  
+- **Fórmula:** Σ (tempo de resposta de cada requisição) / Nº total de requisições  
+- **Periodicidade:** Diária  
+- **Valor-alvo:** ≤ 10 segundos  
+- **Coleta:**  
+  1. Medir o tempo entre requisição e resposta em 10 operações diferentes (cadastro, login, mapa, etc.).  
+  2. Calcular a média e registrar em planilha: data, tempo médio, observações.  
+- **Responsável:** Equipe de Infraestrutura  
+
+---
+
+**M3.2 – Questão 03: Hipótese 3.2**
+
+**Detalhes da Métrica**  
+- **Objetivo:** Garantir desempenho consistente nas principais funcionalidades.  
+- **Fórmula:** (Número de requisições com tempo ≤ 10s / Total de requisições) × 100  
+- **Periodicidade:** Semanal  
+- **Valor-alvo:** ≥ 95%  
+- **Coleta:**  
+  1. Monitorar logs de desempenho.  
+  2. Registrar número total de requisições e quantas atenderam o tempo-alvo.  
+  3. Documentar resultados e analisar picos de lentidão.  
+- **Responsável:** Equipe de Infraestrutura  
 
 # 6. Conclusão
 
@@ -128,9 +210,10 @@ A aplicação do modelo GQM, apoiada por análises estáticas, testes funcionais
 | Versão | Data       | Autor(es)                  | Descrição das Alterações                                    |
 |--------|------------|---------------------------|------------------------------------------------------------|
 | 1.0    | 10/10/2025 | Nicolas                | Criação do documento com estrutura inicial.               |
-| 1.1    | 12/10/2025 | Ana Luiza Borba / Equipe  | Inclusão de GQM, métricas e critérios de avaliação.       |
-| 1.2    | 14/10/2025 | Ana Luiza Borba / Equipe  | Revisão do texto, formatação e inclusão de fórmulas de métricas. |
-| 1.3    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, histórico de versões, referências e declaração de uso de IA. |
+| 1.1    | 12/10/2025 | Ana Luiza Borba   | Inclusão de GQM, métricas e critérios de avaliação.       |
+| 1.2    | 14/10/2025 | Ana Luiza Borba  | Revisão do texto, formatação e inclusão de fórmulas de métricas. |
+| 1.4    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, histórico de versões, referências e declaração de uso de IA. |
+| 1.5    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, histórico de versões, referências e declaração de uso de IA. |
 
 ---
 
