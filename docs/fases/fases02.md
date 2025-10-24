@@ -1,190 +1,190 @@
 ﻿# Fase 02
 
-# 1. Introdu├º├úo
+# 1. Introdução
 
-Nesta segunda fase do projeto, aplicamos o modelo GQM (Goal-Question-Metric) como metodologia estruturada para avaliar a qualidade do DFemObras. O foco desta avalia├º├úo recai sobre tr├¬s pilares fundamentais: **Funcionalidade**, **Manutenibilidade** e **Efici├¬ncia**. 
+Nesta segunda fase do projeto, aplicamos o modelo GQM (Goal-Question-Metric) como metodologia estruturada para avaliar a qualidade do DFemObras. O foco desta avaliação recai sobre três pilares fundamentais: **Funcionalidade**, **Manutenibilidade** e **Eficiência**. 
 
-A escolha dessas caracter├¡sticas n├úo foi arbitr├íria. Consideramos os aspectos mais relevantes para um sistema de transpar├¬ncia de obras p├║blicas:
+A escolha dessas características não foi arbitrária. Consideramos os aspectos mais relevantes para um sistema de transparência de obras públicas:
 
-* **Funcionalidade:** Em um contexto de transpar├¬ncia governamental, ├® imperativo que todas as informa├º├Áes sobre obras p├║blicas sejam apresentadas de forma completa e acess├¡vel. O cidad├úo precisa visualizar dados precisos sobre localiza├º├úo, valores e status das obras.
+* **Funcionalidade:** Em um contexto de transparência governamental, é imperativo que todas as informações sobre obras públicas sejam apresentadas de forma completa e acessível. O cidadão precisa visualizar dados precisos sobre localização, valores e status das obras.
 
-* **Manutenibilidade:** Tratando-se de um projeto open source voltado para o bem p├║blico, a capacidade de evolu├º├úo cont├¡nua ├® essencial. O c├│digo precisa ser acess├¡vel para que novos desenvolvedores possam contribuir sem barreiras t├®cnicas excessivas.
+* **Manutenibilidade:** Tratando-se de um projeto open source voltado para o bem público, a capacidade de evolução contínua é essencial. O código precisa ser acessível para que novos desenvolvedores possam contribuir sem barreiras técnicas excessivas.
 
-* **Efici├¬ncia:** Em uma aplica├º├úo web que serve dados p├║blicos, o desempenho n├úo ├® apenas uma quest├úo t├®cnica, mas de acesso democr├ítico. Tempos de resposta lentos podem inviabilizar o uso por cidad├úos com conex├Áes mais limitadas.
+* **Eficiência:** Em uma aplicação web que serve dados públicos, o desempenho não é apenas uma questão técnica, mas de acesso democrático. Tempos de resposta lentos podem inviabilizar o uso por cidadãos com conexões mais limitadas.
 
-Nossa abordagem metodol├│gica se fundamenta na norma ISO/IEC 25010:2011, reconhecida internacionalmente como refer├¬ncia para avalia├º├úo de qualidade de software. O modelo GQM nos permite transformar objetivos abstratos de qualidade em m├®tricas concretas e mensur├íveis.
+Nossa abordagem metodológica se fundamenta na norma ISO/IEC 25010:2011, reconhecida internacionalmente como referência para avaliação de qualidade de software. O modelo GQM nos permite transformar objetivos abstratos de qualidade em métricas concretas e mensuráveis.
 
 ## 1.1 Entendendo o Modelo GQM
 
-O GQM (Goal-Question-Metric) ├® uma abordagem sistem├ítica que estrutura a avalia├º├úo em tr├¬s camadas hier├írquicas:
+O GQM (Goal-Question-Metric) é uma abordagem sistemática que estrutura a avaliação em três camadas hierárquicas:
 
-1. **Goal (Objetivo):** Estabelece claramente o que queremos medir, definindo prop├│sito, perspectiva e contexto da avalia├º├úo.
-2. **Questions (Quest├Áes):** Decomp├Áe cada objetivo em perguntas espec├¡ficas que direcionam nossa investiga├º├úo sobre aspectos mensur├íveis.
-3. **Metrics (M├®tricas):** Define indicadores quantitativos e qualitativos que, quando coletados, respondem ├ás quest├Áes formuladas.
+1. **Goal (Objetivo):** Estabelece claramente o que queremos medir, definindo propósito, perspectiva e contexto da avaliação.
+2. **Questions (Questões):** Decompõe cada objetivo em perguntas específicas que direcionam nossa investigação sobre aspectos mensuráveis.
+3. **Metrics (Métricas):** Define indicadores quantitativos e qualitativos que, quando coletados, respondem às questões formuladas.
 
-Esta estrutura hier├írquica garante que toda m├®trica coletada tenha um prop├│sito claro, evitando a coleta de dados desnecess├írios e assegurando que nossas conclus├Áes sejam baseadas em evid├¬ncias relevantes.
+Esta estrutura hierárquica garante que toda métrica coletada tenha um propósito claro, evitando a coleta de dados desnecessários e assegurando que nossas conclusões sejam baseadas em evidências relevantes.
 
-# 2. Objetivos da Avalia├º├úo
+# 2. Objetivos da Avaliação
 
-Esta avalia├º├úo visa estabelecer um diagn├│stico preciso da qualidade do DFemObras atrav├®s de m├®tricas mensur├íveis e an├ílises qualitativas. Nossos objetivos espec├¡ficos incluem:
+Esta avaliação visa estabelecer um diagnóstico preciso da qualidade do DFemObras através de métricas mensuráveis e análises qualitativas. Nossos objetivos específicos incluem:
 
-- **Embasamento para decis├Áes t├®cnicas:** Prover dados confi├íveis que subsidiem decis├Áes sobre prioriza├º├úo de melhorias, refatora├º├Áes e evolu├º├úo do sistema;
-- **Diagn├│stico detalhado:** Mapear fortalezas e vulnerabilidades do sistema nas tr├¬s caracter├¡sticas priorizadas, identificando gargalos e oportunidades;
-- **Replicabilidade:** Documentar m├®todos de coleta e c├ílculo de forma suficientemente detalhada para permitir reavalia├º├Áes futuras e compara├º├Áes temporais;
-- **Compromisso com transpar├¬ncia:** Assegurar que a plataforma cumpra sua miss├úo de fornecer acesso claro e confi├ível a informa├º├Áes sobre obras p├║blicas.
+- **Embasamento para decisões técnicas:** Prover dados confiáveis que subsidiem decisões sobre priorização de melhorias, refatorações e evolução do sistema;
+- **Diagnóstico detalhado:** Mapear fortalezas e vulnerabilidades do sistema nas três características priorizadas, identificando gargalos e oportunidades;
+- **Replicabilidade:** Documentar métodos de coleta e cálculo de forma suficientemente detalhada para permitir reavaliações futuras e comparações temporais;
+- **Compromisso com transparência:** Assegurar que a plataforma cumpra sua missão de fornecer acesso claro e confiável a informações sobre obras públicas.
 
-A combina├º├úo de m├®tricas objetivas com avalia├º├Áes qualitativas nos permite obter uma vis├úo hol├¡stica da qualidade, indo al├®m de n├║meros para compreender o contexto e as implica├º├Áes pr├íticas dos resultados obtidos.
+A combinação de métricas objetivas com avaliações qualitativas nos permite obter uma visão holística da qualidade, indo além de números para compreender o contexto e as implicações práticas dos resultados obtidos.
 
-# 3. Abordagem Metodol├│gica
+# 3. Abordagem Metodológica
 
-Nossa estrat├®gia de avalia├º├úo combina o rigor do modelo GQM com t├®cnicas pr├íticas de engenharia de software, criando um framework de an├ílise que equilibra aspectos quantitativos e qualitativos.
+Nossa estratégia de avaliação combina o rigor do modelo GQM com técnicas práticas de engenharia de software, criando um framework de análise que equilibra aspectos quantitativos e qualitativos.
 
-## 3.1 Estrat├®gias de Coleta de Dados
+## 3.1 Estratégias de Coleta de Dados
 
-Implementamos m├║ltiplas t├®cnicas de coleta para garantir triangula├º├úo de dados e maior confiabilidade nos resultados:
+Implementamos múltiplas técnicas de coleta para garantir triangulação de dados e maior confiabilidade nos resultados:
 
-- **Auditoria do reposit├│rio:** Exame sistem├ítico da estrutura do projeto no GitHub, verificando presen├ºa de documenta├º├úo (README, wikis, guias), configura├º├Áes de CI/CD, organiza├º├úo de pastas e hist├│rico de commits. Utilizamos explora├º├úo manual complementada por consultas ├á API do GitHub.
+- **Auditoria do repositório:** Exame sistemático da estrutura do projeto no GitHub, verificando presença de documentação (README, wikis, guias), configurações de CI/CD, organização de pastas e histórico de commits. Utilizamos exploração manual complementada por consultas à API do GitHub.
 
-- **An├ílise de c├│digo est├ítico:** Aplica├º├úo de ferramentas automatizadas (SonarQube, ESLint) para extra├º├úo de m├®tricas estruturais como complexidade ciclom├ítica, acoplamento e duplica├º├úo de c├│digo. Os dados s├úo agregados por m├│dulo para an├ílise comparativa.
+- **Análise de código estático:** Aplicação de ferramentas automatizadas (SonarQube, ESLint) para extração de métricas estruturais como complexidade ciclomática, acoplamento e duplicação de código. Os dados são agregados por módulo para análise comparativa.
 
-- **Valida├º├úo funcional:** Desenvolvimento e execu├º├úo de cen├írios de teste focados nos fluxos cr├¡ticos: renderiza├º├úo do mapa com marcadores de obras, navega├º├úo para detalhes, exibi├º├úo de informa├º├Áes financeiras. Documentamos taxa de sucesso e tempo de execu├º├úo de cada cen├írio.
+- **Validação funcional:** Desenvolvimento e execução de cenários de teste focados nos fluxos críticos: renderização do mapa com marcadores de obras, navegação para detalhes, exibição de informações financeiras. Documentamos taxa de sucesso e tempo de execução de cada cenário.
 
-- **An├ílise de desempenho:** Utiliza├º├úo do Chrome DevTools e Google Lighthouse para captura de m├®tricas de performance em condi├º├Áes controladas: tempos de carregamento, First Contentful Paint (FCP), uso de recursos computacionais (CPU e mem├│ria). Realizamos medi├º├Áes em diferentes hor├írios para identificar varia├º├Áes.
+- **Análise de desempenho:** Utilização do Chrome DevTools e Google Lighthouse para captura de métricas de performance em condições controladas: tempos de carregamento, First Contentful Paint (FCP), uso de recursos computacionais (CPU e memória). Realizamos medições em diferentes horários para identificar variações.
 
-- **Perspectiva dos stakeholders:** Coleta de percep├º├Áes atrav├®s de question├írios estruturados e entrevistas semi-estruturadas com desenvolvedores, gestores e potenciais usu├írios. Aplicamos checklists para avalia├º├úo heur├¡stica de usabilidade e clareza informacional.
+- **Perspectiva dos stakeholders:** Coleta de percepções através de questionários estruturados e entrevistas semi-estruturadas com desenvolvedores, gestores e potenciais usuários. Aplicamos checklists para avaliação heurística de usabilidade e clareza informacional.
 
 ## 3.2 Instrumental Utilizado
 
-- **Chrome DevTools:** An├ílise de performance, monitoramento de recursos e debugging
+- **Chrome DevTools:** Análise de performance, monitoramento de recursos e debugging
 - **Google Lighthouse:** Auditoria automatizada de qualidade web
-- **GitHub (reposit├│rio e API):** An├ílise de hist├│rico, estrutura e metadados do projeto
-- **Ferramentas de an├ílise est├ítica:** Para extra├º├úo de m├®tricas de c├│digo
-- **Planilhas estruturadas:** Consolida├º├úo, normaliza├º├úo e an├ílise de m├®tricas
-- **Instrumentos de pesquisa:** Question├írios e roteiros de entrevista padronizados
+- **GitHub (repositório e API):** Análise de histórico, estrutura e metadados do projeto
+- **Ferramentas de análise estática:** Para extração de métricas de código
+- **Planilhas estruturadas:** Consolidação, normalização e análise de métricas
+- **Instrumentos de pesquisa:** Questionários e roteiros de entrevista padronizados
 
-# 4. Objetivos de Medi├º├úo GQM
+# 4. Objetivos de Medição GQM
 
-## 4.1 Objetivo de Medi├º├úo 1: Funcionalidade
+## 4.1 Objetivo de Medição 1: Funcionalidade
 
 <div align="center">
   <table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 90%;">
     <tr style="background-color: #f0f0f0;">
       <th colspan="2" style="text-align: center; font-size: 1.1em;">
-        <b>Objetivo de Medi├º├úo: Funcionalidade do DFemObras</b>
+        <b>Objetivo de Medição: Funcionalidade do DFemObras</b>
       </th>
     </tr>
     <tr>
-      <td style="width: 30%; vertical-align: top;"><b>Objeto de An├ílise:</b></td>
-      <td>Sistema DFemObras - plataforma web de transpar├¬ncia de obras p├║blicas do Distrito Federal</td>
+      <td style="width: 30%; vertical-align: top;"><b>Objeto de Análise:</b></td>
+      <td>Sistema DFemObras - plataforma web de transparência de obras públicas do Distrito Federal</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Finalidade:</b></td>
-      <td>Caracterizar a completude e adequa├º├úo das funcionalidades oferecidas aos cidad├úos</td>
+      <td>Caracterizar a completude e adequação das funcionalidades oferecidas aos cidadãos</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Foco de Qualidade:</b></td>
-      <td>Capacidade do sistema em entregar informa├º├Áes completas, precisas e acess├¡veis sobre obras p├║blicas</td>
+      <td>Capacidade do sistema em entregar informações completas, precisas e acessíveis sobre obras públicas</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Perspectiva:</b></td>
-      <td>Cidad├úos usu├írios do portal e gestores p├║blicos respons├íveis pela transpar├¬ncia</td>
+      <td>Cidadãos usuários do portal e gestores públicos responsáveis pela transparência</td>
     </tr>
   </table>
 </div>
 
 <div align="center">
-  <font size="3"><p><i>Tabela 1: Especifica├º├úo do objetivo de medi├º├úo para a caracter├¡stica Funcionalidade</i></p></font>
+  <font size="3"><p><i>Tabela 1: Especificação do objetivo de medição para a característica Funcionalidade</i></p></font>
 </div>
 
 ---
 
-### Perguntas e Hip├│teses de Medi├º├úo
+### Perguntas e Hipóteses de Medição
 
-**Quest├úo 1: Integridade na Visualiza├º├úo**
-> O mapa interativo representa fielmente todas as obras dispon├¡veis nos dados de origem?
+**Questão 1: Integridade na Visualização**
+> O mapa interativo representa fielmente todas as obras disponíveis nos dados de origem?
 
-* **Hip├│tese 1.1 (H1.1):** No m├¡nimo 95% das obras cadastradas na fonte de dados s├úo corretamente renderizadas como marcadores no mapa.
-* **Hip├│tese 1.2 (H1.2):** Cada marcador apresenta consist├¬ncia nas informa├º├Áes b├ísicas (identifica├º├úo e localiza├º├úo geogr├ífica).
+* **Hipótese 1.1 (H1.1):** No mínimo 95% das obras cadastradas na fonte de dados são corretamente renderizadas como marcadores no mapa.
+* **Hipótese 1.2 (H1.2):** Cada marcador apresenta consistência nas informações básicas (identificação e localização geográfica).
 
-**Quest├úo 2: Sufici├¬ncia Informacional**
-> Os detalhes apresentados sobre cada obra s├úo completos e acess├¡veis?
+**Questão 2: Suficiência Informacional**
+> Os detalhes apresentados sobre cada obra são completos e acessíveis?
 
-* **Hip├│tese 2.1 (H2.1):** Ao menos 90% das obras exibem completude nos campos essenciais (investimento, localiza├º├úo, estado atual, descri├º├úo).
-* **Hip├│tese 2.2 (H2.2):** O intervalo m├®dio para acessar informa├º├Áes detalhadas de uma obra n├úo excede 2 segundos.
+* **Hipótese 2.1 (H2.1):** Ao menos 90% das obras exibem completude nos campos essenciais (investimento, localização, estado atual, descrição).
+* **Hipótese 2.2 (H2.2):** O intervalo médio para acessar informações detalhadas de uma obra não excede 2 segundos.
 
-**Quest├úo 3: Transpar├¬ncia Financeira**
-> Os valores financeiros das obras s├úo apresentados de forma clara e contextualizada?
+**Questão 3: Transparência Financeira**
+> Os valores financeiros das obras são apresentados de forma clara e contextualizada?
 
-* **Hip├│tese 3.1 (H3.1):** Valores monet├írios seguem formata├º├úo padr├úo brasileira (R$, separadores adequados).
-* **Hip├│tese 3.2 (H3.2):** Informa├º├Áes financeiras incluem contextualiza├º├úo essencial (origem dos dados, ├║ltima atualiza├º├úo).
+* **Hipótese 3.1 (H3.1):** Valores monetários seguem formatação padrão brasileira (R$, separadores adequados).
+* **Hipótese 3.2 (H3.2):** Informações financeiras incluem contextualização essencial (origem dos dados, última atualização).
 
 ---
 
-### Sele├º├úo das M├®tricas
+### Seleção das Métricas
 
-**Quest├úo 1: Integridade na Visualiza├º├úo**
+**Questão 1: Integridade na Visualização**
 
-* **M├®trica 1.1: Taxa de Visualiza├º├úo de Obras (TVO)**
-    * **Defini├º├úo:** Propor├º├úo de obras da fonte de dados que s├úo efetivamente visualizadas no mapa.
-    * **F├│rmula:** `TVO = (Obras exibidas no mapa / Total de obras na fonte) ├ù 100`
-    * **M├®todo de coleta:** Comparar quantidade de registros na API com marcadores renderizados no mapa.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 1.1: Taxa de Visualização de Obras (TVO)**
+    * **Definição:** Proporção de obras da fonte de dados que são efetivamente visualizadas no mapa.
+    * **Fórmula:** `TVO = (Obras exibidas no mapa / Total de obras na fonte) × 100`
+    * **Método de coleta:** Comparar quantidade de registros na API com marcadores renderizados no mapa.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | TVO ÔëÑ 95% | 85% Ôëñ TVO < 95% | 75% Ôëñ TVO < 85% | TVO < 75% |
+      | TVO ≥ 95% | 85% ≤ TVO < 95% | 75% ≤ TVO < 85% | TVO < 75% |
 
-    * **Prop├│sito:** Verificar se h├í perda de informa├º├úo entre a fonte de dados e a visualiza├º├úo.
+    * **Propósito:** Verificar se há perda de informação entre a fonte de dados e a visualização.
 
-**Quest├úo 2: Sufici├¬ncia Informacional**
+**Questão 2: Suficiência Informacional**
 
-* **M├®trica 2.1: ├ìndice de Completude de Dados (ICD)**
-    * **Defini├º├úo:** Percentual de obras que apresentam todos os campos obrigat├│rios preenchidos adequadamente.
-    * **F├│rmula:** `ICD = (Obras com dados completos / Total de obras) ├ù 100`
-    * **M├®todo de coleta:** Auditoria manual e automatizada verificando presen├ºa de campos essenciais.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 2.1: Índice de Completude de Dados (ICD)**
+    * **Definição:** Percentual de obras que apresentam todos os campos obrigatórios preenchidos adequadamente.
+    * **Fórmula:** `ICD = (Obras com dados completos / Total de obras) × 100`
+    * **Método de coleta:** Auditoria manual e automatizada verificando presença de campos essenciais.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | ICD ÔëÑ 95% | 85% Ôëñ ICD < 95% | 75% Ôëñ ICD < 85% | ICD < 75% |
+      | ICD ≥ 95% | 85% ≤ ICD < 95% | 75% ≤ ICD < 85% | ICD < 75% |
 
-    * **Prop├│sito:** Assegurar que informa├º├Áes disponibilizadas s├úo suficientes para transpar├¬ncia.
+    * **Propósito:** Assegurar que informações disponibilizadas são suficientes para transparência.
 
-**Quest├úo 3: Transpar├¬ncia Financeira**
+**Questão 3: Transparência Financeira**
 
-* **M├®trica 3.1: ├ìndice de Clareza Financeira (ICF)**
-    * **Defini├º├úo:** Avalia├º├úo qualitativa sobre apresenta├º├úo de valores monet├írios.
-    * **M├®todo de coleta:** Aplica├º├úo de checklist avaliando formata├º├úo, contextualiza├º├úo e legibilidade.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 3.1: Índice de Clareza Financeira (ICF)**
+    * **Definição:** Avaliação qualitativa sobre apresentação de valores monetários.
+    * **Método de coleta:** Aplicação de checklist avaliando formatação, contextualização e legibilidade.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
       | Score 4-5 | Score 3 | Score 2 | Score 0-1 |
 
-    * **Prop├│sito:** Garantir apresenta├º├úo compreens├¡vel e transparente de informa├º├Áes financeiras.
+    * **Propósito:** Garantir apresentação compreensível e transparente de informações financeiras.
 
 ---
 
-## 4.2 Objetivo de Medi├º├úo 2: Manutenibilidade
+## 4.2 Objetivo de Medição 2: Manutenibilidade
 
 <div align="center">
   <table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 90%;">
     <tr style="background-color: #e8f4f8;">
       <th colspan="2" style="text-align: center; font-size: 1.1em;">
-        <b>Objetivo de Medi├º├úo: Manutenibilidade do DFemObras</b>
+        <b>Objetivo de Medição: Manutenibilidade do DFemObras</b>
       </th>
     </tr>
     <tr>
-      <td style="width: 30%; vertical-align: top;"><b>Objeto de An├ílise:</b></td>
-      <td>Base de c├│digo-fonte, arquitetura e documenta├º├úo t├®cnica do projeto DFemObras</td>
+      <td style="width: 30%; vertical-align: top;"><b>Objeto de Análise:</b></td>
+      <td>Base de código-fonte, arquitetura e documentação técnica do projeto DFemObras</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Finalidade:</b></td>
-      <td>Compreender o n├¡vel de facilidade para manuten├º├úo, evolu├º├úo e colabora├º├úo no desenvolvimento</td>
+      <td>Compreender o nível de facilidade para manutenção, evolução e colaboração no desenvolvimento</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Foco de Qualidade:</b></td>
-      <td>Qualidade estrutural do c├│digo, modularidade, testabilidade e capacidade de colabora├º├úo open source</td>
+      <td>Qualidade estrutural do código, modularidade, testabilidade e capacidade de colaboração open source</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Perspectiva:</b></td>
@@ -194,329 +194,329 @@ Implementamos m├║ltiplas t├®cnicas de coleta para garantir triangula├º
 </div>
 
 <div align="center">
-  <font size="3"><p><i>Tabela 2: Especifica├º├úo do objetivo de medi├º├úo para a caracter├¡stica Manutenibilidade</i></p></font>
+  <font size="3"><p><i>Tabela 2: Especificação do objetivo de medição para a característica Manutenibilidade</i></p></font>
 </div>
 
 ---
 
-### Perguntas e Hip├│teses de Medi├º├úo
+### Perguntas e Hipóteses de Medição
 
-**Quest├úo 1: Arquitetura e Reuso**
-> A arquitetura do c├│digo favorece modularidade e reaproveitamento de componentes?
+**Questão 1: Arquitetura e Reuso**
+> A arquitetura do código favorece modularidade e reaproveitamento de componentes?
 
-* **Hip├│tese 1.1 (H1.1):** No m├¡nimo 60% dos m├│dulos implementados s├úo potencialmente reutiliz├íveis em diferentes contextos.
-* **Hip├│tese 1.2 (H1.2):** O acoplamento m├®dio entre componentes permanece em n├¡veis aceit├íveis (CBO Ôëñ 10).
+* **Hipótese 1.1 (H1.1):** No mínimo 60% dos módulos implementados são potencialmente reutilizáveis em diferentes contextos.
+* **Hipótese 1.2 (H1.2):** O acoplamento médio entre componentes permanece em níveis aceitáveis (CBO ≤ 10).
 
-**Quest├úo 2: Inteligibilidade do C├│digo**
-> Qual o n├¡vel de dificuldade para compreender e navegar pelo c├│digo-fonte?
+**Questão 2: Inteligibilidade do Código**
+> Qual o nível de dificuldade para compreender e navegar pelo código-fonte?
 
-* **Hip├│tese 2.1 (H2.1):** A complexidade ciclom├ítica m├®dia se mant├®m abaixo de 10, indicando fun├º├Áes compreens├¡veis.
-* **Hip├│tese 2.2 (H2.2):** Densidade de coment├írios no c├│digo situa-se entre 15% e 25%.
+* **Hipótese 2.1 (H2.1):** A complexidade ciclomática média se mantém abaixo de 10, indicando funções compreensíveis.
+* **Hipótese 2.2 (H2.2):** Densidade de comentários no código situa-se entre 15% e 25%.
 
-**Quest├úo 3: Suporte de Testes**
-> Qual a extens├úo e qualidade da infraestrutura de testes automatizados?
+**Questão 3: Suporte de Testes**
+> Qual a extensão e qualidade da infraestrutura de testes automatizados?
 
-* **Hip├│tese 3.1 (H3.1):** M├│dulos cr├¡ticos apresentam cobertura de testes superior a 80%.
-* **Hip├│tese 3.2 (H3.2):** Principais fluxos funcionais possuem testes automatizados correspondentes.
-
----
-
-### Sele├º├úo das M├®tricas
-
-**Quest├úo 1: Arquitetura e Reuso**
-
-* **M├®trica 1.1: ├ìndice de Reusabilidade (IR)**
-    * **Defini├º├úo:** Propor├º├úo de m├│dulos com potencial de reutiliza├º├úo em outros contextos.
-    * **F├│rmula:** `IR = (M├│dulos reutiliz├íveis / Total de m├│dulos) ├ù 100`
-    * **M├®todo de coleta:** An├ílise de depend├¬ncias e hist├│rico de reuso de componentes.
-    * **Crit├®rios de avalia├º├úo:**
-
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
-      |:---|:---|:---|:---|
-      | IR ÔëÑ 70% | 60% Ôëñ IR < 70% | 50% Ôëñ IR < 60% | IR < 50% |
-
-    * **Prop├│sito:** Avaliar capacidade de evolu├º├úo atrav├®s de reaproveitamento.
-
-* **M├®trica 1.2: Acoplamento entre Objetos (CBO - Coupling Between Objects)**
-    * **Defini├º├úo:** M├®dia de depend├¬ncias entre classes do sistema.
-    * **M├®todo de coleta:** An├ílise est├ítica automatizada do c├│digo.
-    * **Crit├®rios de avalia├º├úo:**
-
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
-      |:---|:---|:---|:---|
-      | CBO Ôëñ 5 | 5 < CBO Ôëñ 10 | 10 < CBO Ôëñ 15 | CBO > 15 |
-
-    * **Prop├│sito:** Medir interdepend├¬ncia entre componentes.
-
-**Quest├úo 2: Inteligibilidade do C├│digo**
-
-* **M├®trica 2.1: Complexidade Ciclom├ítica M├®dia (CCM)**
-    * **Defini├º├úo:** Quantidade m├®dia de caminhos linearmente independentes no c├│digo.
-    * **F├│rmula:** `CC = E - N + 2P` onde E=arestas, N=n├│s, P=componentes conectados
-    * **M├®todo de coleta:** An├ílise est├ítica por fun├º├úo, agregando m├®dia.
-    * **Crit├®rios de avalia├º├úo:**
-
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
-      |:---|:---|:---|:---|
-      | CCM Ôëñ 5 | 5 < CCM Ôëñ 10 | 10 < CCM Ôëñ 15 | CCM > 15 |
-
-    * **Prop├│sito:** Identificar c├│digo dif├¡cil de compreender e testar.
-
-* **M├®trica 2.2: Densidade Documental (DD)**
-    * **Defini├º├úo:** Propor├º├úo de linhas dedicadas a coment├írios.
-    * **F├│rmula:** `DD = (Linhas de coment├írio / Total de linhas) ├ù 100`
-    * **M├®todo de coleta:** An├ílise est├ítica do c├│digo-fonte.
-    * **Crit├®rios de avalia├º├úo:**
-
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
-      |:---|:---|:---|:---|
-      | 20% Ôëñ DD Ôëñ 25% | 15% Ôëñ DD < 20% | 10% Ôëñ DD < 15% | DD < 10% ou DD > 30% |
-
-    * **Prop├│sito:** Verificar se o c├│digo possui documenta├º├úo inline adequada.
-
-**Quest├úo 3: Suporte de Testes**
-
-* **M├®trica 3.1: Cobertura de C├│digo por Testes (CCT)**
-    * **Defini├º├úo:** Percentual de linhas executadas durante testes automatizados.
-    * **F├│rmula:** `CCT = (Linhas testadas / Total de linhas execut├íveis) ├ù 100`
-    * **M├®todo de coleta:** Relat├│rios de coverage tools.
-    * **Crit├®rios de avalia├º├úo:**
-
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
-      |:---|:---|:---|:---|
-      | CCT ÔëÑ 80% | 70% Ôëñ CCT < 80% | 60% Ôëñ CCT < 70% | CCT < 60% |
-
-    * **Prop├│sito:** Quantificar extens├úo da rede de seguran├ºa de testes.
+* **Hipótese 3.1 (H3.1):** Módulos críticos apresentam cobertura de testes superior a 80%.
+* **Hipótese 3.2 (H3.2):** Principais fluxos funcionais possuem testes automatizados correspondentes.
 
 ---
 
-## 4.3 Objetivo de Medi├º├úo 3: Efici├¬ncia
+### Seleção das Métricas
+
+**Questão 1: Arquitetura e Reuso**
+
+* **Métrica 1.1: Índice de Reusabilidade (IR)**
+    * **Definição:** Proporção de módulos com potencial de reutilização em outros contextos.
+    * **Fórmula:** `IR = (Módulos reutilizáveis / Total de módulos) × 100`
+    * **Método de coleta:** Análise de dependências e histórico de reuso de componentes.
+    * **Critérios de avaliação:**
+
+      | Ótimo | Bom | Médio | Insatisfatório |
+      |:---|:---|:---|:---|
+      | IR ≥ 70% | 60% ≤ IR < 70% | 50% ≤ IR < 60% | IR < 50% |
+
+    * **Propósito:** Avaliar capacidade de evolução através de reaproveitamento.
+
+* **Métrica 1.2: Acoplamento entre Objetos (CBO - Coupling Between Objects)**
+    * **Definição:** Média de dependências entre classes do sistema.
+    * **Método de coleta:** Análise estática automatizada do código.
+    * **Critérios de avaliação:**
+
+      | Ótimo | Bom | Médio | Insatisfatório |
+      |:---|:---|:---|:---|
+      | CBO ≤ 5 | 5 < CBO ≤ 10 | 10 < CBO ≤ 15 | CBO > 15 |
+
+    * **Propósito:** Medir interdependência entre componentes.
+
+**Questão 2: Inteligibilidade do Código**
+
+* **Métrica 2.1: Complexidade Ciclomática Média (CCM)**
+    * **Definição:** Quantidade média de caminhos linearmente independentes no código.
+    * **Fórmula:** `CC = E - N + 2P` onde E=arestas, N=nós, P=componentes conectados
+    * **Método de coleta:** Análise estática por função, agregando média.
+    * **Critérios de avaliação:**
+
+      | Ótimo | Bom | Médio | Insatisfatório |
+      |:---|:---|:---|:---|
+      | CCM ≤ 5 | 5 < CCM ≤ 10 | 10 < CCM ≤ 15 | CCM > 15 |
+
+    * **Propósito:** Identificar código difícil de compreender e testar.
+
+* **Métrica 2.2: Densidade Documental (DD)**
+    * **Definição:** Proporção de linhas dedicadas a comentários.
+    * **Fórmula:** `DD = (Linhas de comentário / Total de linhas) × 100`
+    * **Método de coleta:** Análise estática do código-fonte.
+    * **Critérios de avaliação:**
+
+      | Ótimo | Bom | Médio | Insatisfatório |
+      |:---|:---|:---|:---|
+      | 20% ≤ DD ≤ 25% | 15% ≤ DD < 20% | 10% ≤ DD < 15% | DD < 10% ou DD > 30% |
+
+    * **Propósito:** Verificar se o código possui documentação inline adequada.
+
+**Questão 3: Suporte de Testes**
+
+* **Métrica 3.1: Cobertura de Código por Testes (CCT)**
+    * **Definição:** Percentual de linhas executadas durante testes automatizados.
+    * **Fórmula:** `CCT = (Linhas testadas / Total de linhas executáveis) × 100`
+    * **Método de coleta:** Relatórios de coverage tools.
+    * **Critérios de avaliação:**
+
+      | Ótimo | Bom | Médio | Insatisfatório |
+      |:---|:---|:---|:---|
+      | CCT ≥ 80% | 70% ≤ CCT < 80% | 60% ≤ CCT < 70% | CCT < 60% |
+
+    * **Propósito:** Quantificar extensão da rede de segurança de testes.
+
+---
+
+## 4.3 Objetivo de Medição 3: Eficiência
 
 <div align="center">
   <table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 90%;">
     <tr style="background-color: #f0f8e8;">
       <th colspan="2" style="text-align: center; font-size: 1.1em;">
-        <b>Objetivo de Medi├º├úo: Efici├¬ncia do DFemObras</b>
+        <b>Objetivo de Medição: Eficiência do DFemObras</b>
       </th>
     </tr>
     <tr>
-      <td style="width: 30%; vertical-align: top;"><b>Objeto de An├ílise:</b></td>
-      <td>Comportamento do sistema em tempo de execu├º├úo, incluindo responsividade e consumo de recursos</td>
+      <td style="width: 30%; vertical-align: top;"><b>Objeto de Análise:</b></td>
+      <td>Comportamento do sistema em tempo de execução, incluindo responsividade e consumo de recursos</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Finalidade:</b></td>
-      <td>Mensurar o desempenho e a efici├¬ncia no uso de recursos computacionais durante opera├º├úo</td>
+      <td>Mensurar o desempenho e a eficiência no uso de recursos computacionais durante operação</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Foco de Qualidade:</b></td>
-      <td>Tempos de resposta, velocidade de renderiza├º├úo, consumo de CPU/mem├│ria e disponibilidade do servi├ºo</td>
+      <td>Tempos de resposta, velocidade de renderização, consumo de CPU/memória e disponibilidade do serviço</td>
     </tr>
     <tr>
       <td style="vertical-align: top;"><b>Perspectiva:</b></td>
-      <td>Usu├írios finais navegando via web browsers e equipe t├®cnica respons├ível pela infraestrutura</td>
+      <td>Usuários finais navegando via web browsers e equipe técnica responsável pela infraestrutura</td>
     </tr>
   </table>
 </div>
 
 <div align="center">
-  <font size="3"><p><i>Tabela 3: Especifica├º├úo do objetivo de medi├º├úo para a caracter├¡stica Efici├¬ncia</i></p></font>
+  <font size="3"><p><i>Tabela 3: Especificação do objetivo de medição para a característica Eficiência</i></p></font>
 </div>
 
 ---
 
-### Perguntas e Hip├│teses de Medi├º├úo
+### Perguntas e Hipóteses de Medição
 
-**Quest├úo 1: Responsividade do Sistema**
-> Os tempos de resposta atendem ├ás expectativas de uso em aplica├º├Áes web?
+**Questão 1: Responsividade do Sistema**
+> Os tempos de resposta atendem às expectativas de uso em aplicações web?
 
-* **Hip├│tese 1.1 (H1.1):** Tempo de carregamento completo da p├ígina inicial n├úo ultrapassa 5 segundos.
-* **Hip├│tese 1.2 (H1.2):** Primeiro conte├║do vis├¡vel (FCP) aparece em menos de 3 segundos.
+* **Hipótese 1.1 (H1.1):** Tempo de carregamento completo da página inicial não ultrapassa 5 segundos.
+* **Hipótese 1.2 (H1.2):** Primeiro conteúdo visível (FCP) aparece em menos de 3 segundos.
 
-**Quest├úo 2: Consumo de Recursos Computacionais**
-> O sistema demonstra efici├¬ncia no uso de recursos durante opera├º├úo normal?
+**Questão 2: Consumo de Recursos Computacionais**
+> O sistema demonstra eficiência no uso de recursos durante operação normal?
 
-* **Hip├│tese 2.1 (H2.1):** Utiliza├º├úo de CPU em cen├írios t├¡picos permanece abaixo de 60%.
-* **Hip├│tese 2.2 (H2.2):** Consumo de mem├│ria RAM n├úo excede 200MB em uso padr├úo.
+* **Hipótese 2.1 (H2.1):** Utilização de CPU em cenários típicos permanece abaixo de 60%.
+* **Hipótese 2.2 (H2.2):** Consumo de memória RAM não excede 200MB em uso padrão.
 
-**Quest├úo 3: Infraestrutura e Confiabilidade**
+**Questão 3: Infraestrutura e Confiabilidade**
 > A infraestrutura de hospedagem garante disponibilidade e escalabilidade?
 
-* **Hip├│tese 3.1 (H3.1):** Sistema opera em plataforma Cloud com capacidade de escalonamento.
-* **Hip├│tese 3.2 (H3.2):** Disponibilidade do servi├ºo supera 99% do tempo total.
+* **Hipótese 3.1 (H3.1):** Sistema opera em plataforma Cloud com capacidade de escalonamento.
+* **Hipótese 3.2 (H3.2):** Disponibilidade do serviço supera 99% do tempo total.
 
 ---
 
-### Sele├º├úo das M├®tricas
+### Seleção das Métricas
 
-**Quest├úo 1: Responsividade do Sistema**
+**Questão 1: Responsividade do Sistema**
 
-* **M├®trica 1.1: Tempo Total de Carregamento (TTC)**
-    * **Defini├º├úo:** Intervalo m├®dio at├® carregamento completo da interface inicial.
-    * **F├│rmula:** `TTC = (╬ú tempos individuais de carregamento) / Quantidade de medi├º├Áes`
-    * **M├®todo de coleta:** M├║ltiplas medi├º├Áes via DevTools/Lighthouse em condi├º├Áes controladas.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 1.1: Tempo Total de Carregamento (TTC)**
+    * **Definição:** Intervalo médio até carregamento completo da interface inicial.
+    * **Fórmula:** `TTC = (Σ tempos individuais de carregamento) / Quantidade de medições`
+    * **Método de coleta:** Múltiplas medições via DevTools/Lighthouse em condições controladas.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | TTC Ôëñ 3s | 3s < TTC Ôëñ 5s | 5s < TTC Ôëñ 7s | TTC > 7s |
+      | TTC ≤ 3s | 3s < TTC ≤ 5s | 5s < TTC ≤ 7s | TTC > 7s |
 
-    * **Prop├│sito:** Medir experi├¬ncia percebida de responsividade.
+    * **Propósito:** Medir experiência percebida de responsividade.
 
-* **M├®trica 1.2: First Contentful Paint (FCP)**
-    * **Defini├º├úo:** Tempo at├® renderiza├º├úo do primeiro elemento visual.
-    * **M├®todo de coleta:** Captura direta atrav├®s de Lighthouse/Performance API.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 1.2: First Contentful Paint (FCP)**
+    * **Definição:** Tempo até renderização do primeiro elemento visual.
+    * **Método de coleta:** Captura direta através de Lighthouse/Performance API.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | FCP Ôëñ 2s | 2s < FCP Ôëñ 3s | 3s < FCP Ôëñ 4s | FCP > 4s |
+      | FCP ≤ 2s | 2s < FCP ≤ 3s | 3s < FCP ≤ 4s | FCP > 4s |
 
-    * **Prop├│sito:** Avaliar percep├º├úo inicial de rapidez.
+    * **Propósito:** Avaliar percepção inicial de rapidez.
 
-**Quest├úo 2: Consumo de Recursos Computacionais**
+**Questão 2: Consumo de Recursos Computacionais**
 
-* **M├®trica 2.1: Taxa de Utiliza├º├úo de CPU (TUC)**
-    * **Defini├º├úo:** Percentual m├®dio de processador consumido durante opera├º├úo.
-    * **F├│rmula:** `TUC = (Tempo de CPU ativo / Tempo total de observa├º├úo) ├ù 100`
-    * **M├®todo de coleta:** Monitoramento atrav├®s de DevTools durante cen├írios de uso.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 2.1: Taxa de Utilização de CPU (TUC)**
+    * **Definição:** Percentual médio de processador consumido durante operação.
+    * **Fórmula:** `TUC = (Tempo de CPU ativo / Tempo total de observação) × 100`
+    * **Método de coleta:** Monitoramento através de DevTools durante cenários de uso.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | TUC Ôëñ 40% | 40% < TUC Ôëñ 60% | 60% < TUC Ôëñ 80% | TUC > 80% |
+      | TUC ≤ 40% | 40% < TUC ≤ 60% | 60% < TUC ≤ 80% | TUC > 80% |
 
-    * **Prop├│sito:** Avaliar efici├¬ncia no processamento.
+    * **Propósito:** Avaliar eficiência no processamento.
 
-* **M├®trica 2.2: Consumo de Mem├│ria (CM)**
-    * **Defini├º├úo:** Quantidade m├®dia de RAM utilizada durante opera├º├úo t├¡pica.
-    * **M├®todo de coleta:** Monitoramento via DevTools/Task Manager durante uso padr├úo.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 2.2: Consumo de Memória (CM)**
+    * **Definição:** Quantidade média de RAM utilizada durante operação típica.
+    * **Método de coleta:** Monitoramento via DevTools/Task Manager durante uso padrão.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | CM Ôëñ 150MB | 150MB < CM Ôëñ 200MB | 200MB < CM Ôëñ 300MB | CM > 300MB |
+      | CM ≤ 150MB | 150MB < CM ≤ 200MB | 200MB < CM ≤ 300MB | CM > 300MB |
 
-    * **Prop├│sito:** Verificar efici├¬ncia no gerenciamento de mem├│ria.
+    * **Propósito:** Verificar eficiência no gerenciamento de memória.
 
-**Quest├úo 3: Infraestrutura e Confiabilidade**
+**Questão 3: Infraestrutura e Confiabilidade**
 
-* **M├®trica 3.1: ├ìndice de Disponibilidade (ID)**
-    * **Defini├º├úo:** Percentual de tempo em que o sistema permanece operacional.
-    * **F├│rmula:** `ID = (Tempo operacional / Tempo total observado) ├ù 100`
-    * **M├®todo de coleta:** An├ílise de logs de monitoramento e uptime.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 3.1: Índice de Disponibilidade (ID)**
+    * **Definição:** Percentual de tempo em que o sistema permanece operacional.
+    * **Fórmula:** `ID = (Tempo operacional / Tempo total observado) × 100`
+    * **Método de coleta:** Análise de logs de monitoramento e uptime.
+    * **Critérios de avaliação:**
 
-      | ├ôtimo | Bom | M├®dio | Insatisfat├│rio |
+      | Ótimo | Bom | Médio | Insatisfatório |
       |:---|:---|:---|:---|
-      | ID ÔëÑ 99.5% | 99% Ôëñ ID < 99.5% | 98% Ôëñ ID < 99% | ID < 98% |
+      | ID ≥ 99.5% | 99% ≤ ID < 99.5% | 98% ≤ ID < 99% | ID < 98% |
 
-    * **Prop├│sito:** Medir confiabilidade da disponibilidade.
+    * **Propósito:** Medir confiabilidade da disponibilidade.
 
-* **M├®trica 3.2: Conformidade de Infraestrutura Cloud (CIC)**
-    * **Defini├º├úo:** Verifica├º├úo bin├íria de hospedagem em plataforma escal├ível.
-    * **M├®todo de coleta:** An├ílise documental e t├®cnica da infraestrutura.
-    * **Crit├®rios de avalia├º├úo:**
+* **Métrica 3.2: Conformidade de Infraestrutura Cloud (CIC)**
+    * **Definição:** Verificação binária de hospedagem em plataforma escalável.
+    * **Método de coleta:** Análise documental e técnica da infraestrutura.
+    * **Critérios de avaliação:**
 
-      | Conforme | N├úo conforme |
+      | Conforme | Não conforme |
       |:---|:---|
-      | Sim | N├úo |
+      | Sim | Não |
 
-    * **Prop├│sito:** Confirmar adequa├º├úo da infraestrutura para escalabilidade.
+    * **Propósito:** Confirmar adequação da infraestrutura para escalabilidade.
 
 
 
-# 5. Interdepend├¬ncias e An├ílise Integrada
+# 5. Interdependências e Análise Integrada
 
-A qualidade de software n├úo ├® um conceito unidimensional. As caracter├¡sticas definidas pela ISO 25010 - incluindo Funcionalidade, Manutenibilidade e Efici├¬ncia - formam uma rede de interdepend├¬ncias onde melhorias ou defici├¬ncias em uma ├írea podem impactar significativamente outras.
+A qualidade de software não é um conceito unidimensional. As características definidas pela ISO 25010 - incluindo Funcionalidade, Manutenibilidade e Eficiência - formam uma rede de interdependências onde melhorias ou deficiências em uma área podem impactar significativamente outras.
 
-## 5.1 Conex├Áes Identificadas entre Caracter├¡sticas
+## 5.1 Conexões Identificadas entre Características
 
-### Conex├úo 1: Complexidade de C├│digo Ôåö Performance
+### Conexão 1: Complexidade de Código ↔ Performance
 
-**Rela├º├úo identificada:** Existe uma correla├º├úo direta entre a complexidade ciclom├ítica do c├│digo (aspecto de Manutenibilidade) e o desempenho em tempo de execu├º├úo (Efici├¬ncia).
+**Relação identificada:** Existe uma correlação direta entre a complexidade ciclomática do código (aspecto de Manutenibilidade) e o desempenho em tempo de execução (Eficiência).
 
-**Justificativa t├®cnica:** Fun├º├Áes com alta complexidade ciclom├ítica apresentam m├║ltiplos caminhos de execu├º├úo e decis├Áes condicionais, resultando em maior consumo de ciclos de CPU e potencial aumento no tempo de resposta.
+**Justificativa técnica:** Funções com alta complexidade ciclomática apresentam múltiplos caminhos de execução e decisões condicionais, resultando em maior consumo de ciclos de CPU e potencial aumento no tempo de resposta.
 
-**Impacto pr├ítico:** A simplifica├º├úo e refatora├º├úo de c├│digo complexo n├úo apenas beneficia desenvolvedores que precisam manter o sistema, mas tamb├®m pode resultar em melhorias mensur├íveis de performance para os usu├írios finais.
+**Impacto prático:** A simplificação e refatoração de código complexo não apenas beneficia desenvolvedores que precisam manter o sistema, mas também pode resultar em melhorias mensuráveis de performance para os usuários finais.
 
-### Conex├úo 2: Cobertura de Testes Ôåö Estabilidade Funcional
+### Conexão 2: Cobertura de Testes ↔ Estabilidade Funcional
 
-**Rela├º├úo identificada:** A extens├úo dos testes automatizados (Manutenibilidade) influencia diretamente a confiabilidade das funcionalidades disponibilizadas (Funcionalidade).
+**Relação identificada:** A extensão dos testes automatizados (Manutenibilidade) influencia diretamente a confiabilidade das funcionalidades disponibilizadas (Funcionalidade).
 
-**Justificativa t├®cnica:** Sistemas com alta cobertura de testes automatizados possuem redes de seguran├ºa que detectam regress├Áes quando novas funcionalidades s├úo adicionadas ou bugs s├úo corrigidos.
+**Justificativa técnica:** Sistemas com alta cobertura de testes automatizados possuem redes de segurança que detectam regressões quando novas funcionalidades são adicionadas ou bugs são corrigidos.
 
-**Impacto pr├ítico:** Investir em testes n├úo ├® apenas boa pr├ítica de engenharia - ├® garantia de que funcionalidades cr├¡ticas como visualiza├º├úo de obras e exibi├º├úo de custos permanecer├úo operacionais durante a evolu├º├úo do sistema.
+**Impacto prático:** Investir em testes não é apenas boa prática de engenharia - é garantia de que funcionalidades críticas como visualização de obras e exibição de custos permanecerão operacionais durante a evolução do sistema.
 
-### Conex├úo 3: Performance Ôåö Usabilidade Funcional
+### Conexão 3: Performance ↔ Usabilidade Funcional
 
-**Rela├º├úo identificada:** M├®tricas de tempo de resposta (Efici├¬ncia) determinam se as funcionalidades implementadas s├úo de fato utiliz├íveis na pr├ítica.
+**Relação identificada:** Métricas de tempo de resposta (Eficiência) determinam se as funcionalidades implementadas são de fato utilizáveis na prática.
 
-**Justificativa t├®cnica:** Funcionalidades tecnicamente corretas mas com performance inadequada resultam em experi├¬ncia de usu├írio comprometida, especialmente em conex├Áes mais lentas.
+**Justificativa técnica:** Funcionalidades tecnicamente corretas mas com performance inadequada resultam em experiência de usuário comprometida, especialmente em conexões mais lentas.
 
-**Impacto pr├ítico:** Um sistema que exibe corretamente 100% das obras mas leva 30 segundos para carregar ├® funcionalmente inadequado. Efici├¬ncia e Funcionalidade devem ser avaliadas conjuntamente para determinar a viabilidade real do sistema.
+**Impacto prático:** Um sistema que exibe corretamente 100% das obras mas leva 30 segundos para carregar é funcionalmente inadequado. Eficiência e Funcionalidade devem ser avaliadas conjuntamente para determinar a viabilidade real do sistema.
 
-# 6. Sistema de Avalia├º├úo e Classifica├º├úo
+# 6. Sistema de Avaliação e Classificação
 
-Estabelecemos uma escala de avalia├º├úo que traduz resultados num├®ricos em classifica├º├Áes qualitativas, facilitando a interpreta├º├úo e comunica├º├úo dos resultados:
+Estabelecemos uma escala de avaliação que traduz resultados numéricos em classificações qualitativas, facilitando a interpretação e comunicação dos resultados:
 
-| Intervalo de Pontua├º├úo | Classifica├º├úo  | Significado                                                                      |
+| Intervalo de Pontuação | Classificação  | Significado                                                                      |
 | ---------------------- | -------------- | -------------------------------------------------------------------------------- |
-| **95% a 100%**         | ├ôtimo          | Desempenho excepcional. Supera padr├Áes esperados de qualidade.                  |
-| **85% a 94%**          | Bom            | Desempenho satisfat├│rio. Atende requisitos com oportunidades pontuais de ajuste. |
-| **75% a 84%**          | M├®dio          | Desempenho aceit├ível. Funciona mas requer aten├º├úo e melhorias planejadas.       |
-| **Abaixo de 75%**      | Insatisfat├│rio | Desempenho inadequado. N├úo atinge padr├Áes m├¡nimos, demanda a├º├úo imediata.       |
+| **95% a 100%**         | Ótimo          | Desempenho excepcional. Supera padrões esperados de qualidade.                  |
+| **85% a 94%**          | Bom            | Desempenho satisfatório. Atende requisitos com oportunidades pontuais de ajuste. |
+| **75% a 84%**          | Médio          | Desempenho aceitável. Funciona mas requer atenção e melhorias planejadas.       |
+| **Abaixo de 75%**      | Insatisfatório | Desempenho inadequado. Não atinge padrões mínimos, demanda ação imediata.       |
 
-## 6.1 Contextualizando Classifica├º├Áes por Caracter├¡stica
+## 6.1 Contextualizando Classificações por Característica
 
-### Interpreta├º├úo para Funcionalidade
-- **├ôtimo (95-100%):** Todas as funcionalidades essenciais operando conforme especificado, com excelente completude de dados
-- **Bom (85-94%):** Funcionalidades principais confi├íveis, com defici├¬ncias menores em aspectos complementares
-- **M├®dio (75-84%):** Funcionalidades base operacionais, por├®m com lacunas na completude ou clareza de apresenta├º├úo
-- **Insatisfat├│rio (<75%):** Funcionalidades cr├¡ticas ausentes, incorretas ou com apresenta├º├úo comprometida
+### Interpretação para Funcionalidade
+- **Ótimo (95-100%):** Todas as funcionalidades essenciais operando conforme especificado, com excelente completude de dados
+- **Bom (85-94%):** Funcionalidades principais confiáveis, com deficiências menores em aspectos complementares
+- **Médio (75-84%):** Funcionalidades base operacionais, porém com lacunas na completude ou clareza de apresentação
+- **Insatisfatório (<75%):** Funcionalidades críticas ausentes, incorretas ou com apresentação comprometida
 
-### Interpreta├º├úo para Manutenibilidade
-- **├ôtimo (95-100%):** Arquitetura limpa, c├│digo bem documentado, testes abrangentes - ideal para evolu├º├úo
-- **Bom (85-94%):** Estrutura s├│lida com pontos espec├¡ficos necessitando refatora├º├úo
-- **M├®dio (75-84%):** C├│digo operacional mas apresentando complexidade elevada e documenta├º├úo inconsistente
-- **Insatisfat├│rio (<75%):** C├│digo dificulta manuten├º├úo significativamente, com alta complexidade e testes insuficientes
+### Interpretação para Manutenibilidade
+- **Ótimo (95-100%):** Arquitetura limpa, código bem documentado, testes abrangentes - ideal para evolução
+- **Bom (85-94%):** Estrutura sólida com pontos específicos necessitando refatoração
+- **Médio (75-84%):** Código operacional mas apresentando complexidade elevada e documentação inconsistente
+- **Insatisfatório (<75%):** Código dificulta manutenção significativamente, com alta complexidade e testes insuficientes
 
-### Interpreta├º├úo para Efici├¬ncia
-- **├ôtimo (95-100%):** Performance excelente, proporcionando experi├¬ncia fluida mesmo em condi├º├Áes adversas
-- **Bom (85-94%):** Performance satisfat├│ria na maioria dos casos de uso
-- **M├®dio (75-84%):** Performance utiliz├ível, mas com lentid├Áes percept├¡veis em cen├írios espec├¡ficos
-- **Insatisfat├│rio (<75%):** Performance comprometida afetando significativamente a experi├¬ncia de uso
+### Interpretação para Eficiência
+- **Ótimo (95-100%):** Performance excelente, proporcionando experiência fluida mesmo em condições adversas
+- **Bom (85-94%):** Performance satisfatória na maioria dos casos de uso
+- **Médio (75-84%):** Performance utilizável, mas com lentidões perceptíveis em cenários específicos
+- **Insatisfatório (<75%):** Performance comprometida afetando significativamente a experiência de uso
 
-# 7. Considera├º├Áes Finais
+# 7. Considerações Finais
 
-Esta segunda fase estabeleceu os alicerces metodol├│gicos para uma avalia├º├úo sistem├ítica e fundamentada da qualidade do DFemObras. Atrav├®s da aplica├º├úo estruturada do modelo GQM, transformamos objetivos abstratos de qualidade em um plano de medi├º├úo execut├ível e replic├ível.
+Esta segunda fase estabeleceu os alicerces metodológicos para uma avaliação sistemática e fundamentada da qualidade do DFemObras. Através da aplicação estruturada do modelo GQM, transformamos objetivos abstratos de qualidade em um plano de medição executável e replicável.
 
-## S├¡ntese dos Resultados da Fase
+## Síntese dos Resultados da Fase
 
 O trabalho desenvolvido nesta etapa produziu:
 
-- **Tr├¬s objetivos de medi├º├úo** claramente definidos, cada um focado em uma caracter├¡stica cr├¡tica do sistema
-- **Nove quest├Áes investigativas** que operacionalizam os objetivos em aspectos espec├¡ficos e mensur├íveis
-- **Dezesseis m├®tricas formalizadas** contemplando medi├º├Áes quantitativas (com f├│rmulas expl├¡citas) e avalia├º├Áes qualitativas (com crit├®rios de julgamento estruturados)
+- **Três objetivos de medição** claramente definidos, cada um focado em uma característica crítica do sistema
+- **Nove questões investigativas** que operacionalizam os objetivos em aspectos específicos e mensuráveis
+- **Dezesseis métricas formalizadas** contemplando medições quantitativas (com fórmulas explícitas) e avaliações qualitativas (com critérios de julgamento estruturados)
 
 ## Valor Agregado da Abordagem
 
 A metodologia adotada oferece vantagens significativas:
 
-**Rastreabilidade:** Cada m├®trica est├í explicitamente vinculada a uma quest├úo espec├¡fica, que por sua vez relaciona-se a um objetivo claro. Esta cadeia de rastreabilidade garante que n├úo coletamos dados sem prop├│sito.
+**Rastreabilidade:** Cada métrica está explicitamente vinculada a uma questão específica, que por sua vez relaciona-se a um objetivo claro. Esta cadeia de rastreabilidade garante que não coletamos dados sem propósito.
 
-**Replicabilidade:** A documenta├º├úo detalhada de f├│rmulas, m├®todos de coleta e ferramentas permite que avalia├º├Áes futuras sejam conduzidas de forma consistente, possibilitando an├ílises longitudinais.
+**Replicabilidade:** A documentação detalhada de fórmulas, métodos de coleta e ferramentas permite que avaliações futuras sejam conduzidas de forma consistente, possibilitando análises longitudinais.
 
-**Vis├úo hol├¡stica:** A identifica├º├úo de interdepend├¬ncias entre caracter├¡sticas revela que qualidade ├® multidimensional - interven├º├Áes em uma ├írea frequentemente beneficiam outras.
+**Visão holística:** A identificação de interdependências entre características revela que qualidade é multidimensional - intervenções em uma área frequentemente beneficiam outras.
 
-## Pr├│ximas Etapas
+## Próximas Etapas
 
 Os passos subsequentes envolvem:
-1. Execu├º├úo do plano de medi├º├úo conforme especificado
-2. Coleta sistem├ítica de dados quantitativos e qualitativos
-3. An├ílise e interpreta├º├úo dos resultados ├á luz dos crit├®rios estabelecidos
-4. Elabora├º├úo de recomenda├º├Áes priorizadas para melhoria do DFemObras
+1. Execução do plano de medição conforme especificado
+2. Coleta sistemática de dados quantitativos e qualitativos
+3. Análise e interpretação dos resultados à luz dos critérios estabelecidos
+4. Elaboração de recomendações priorizadas para melhoria do DFemObras
 
-Esta fase preparat├│ria ├® fundamental para garantir que as conclus├Áes e recomenda├º├Áes das fases seguintes sejam rigorosamente fundamentadas em evid├¬ncias objetivas e metodologicamente s├│lidas.
+Esta fase preparatória é fundamental para garantir que as conclusões e recomendações das fases seguintes sejam rigorosamente fundamentadas em evidências objetivas e metodologicamente sólidas.
 
 
 ---
@@ -529,28 +529,28 @@ Esta fase preparat├│ria ├® fundamental para garantir que as conclus├Áe
 
 > FENTON, Norman E.; PFLEEGER, Shari Lawrence. Software Metrics: A Rigorous and Practical Approach. 3. ed. Boca Raton: CRC Press, 2014.
 
-> ISO/IEC 25010:2011. Systems and software engineering ÔÇô Systems and software Quality Requirements and Evaluation (SQuaRE) ÔÇô System and software quality models. Geneva: International Organization for Standardization, 2011.
+> ISO/IEC 25010:2011. Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models. Geneva: International Organization for Standardization, 2011.
 
-> PRESSMAN, Roger S. Engenharia de Software ÔÇô Uma Abordagem Profissional. 8┬¬ edi├º├úo. McGraw-Hill, 2016.
+> PRESSMAN, Roger S. Engenharia de Software – Uma Abordagem Profissional. 8ª edição. McGraw-Hill, 2016.
 
 > SOMMERVILLE, Ian. Software Engineering. 9th Edition. Pearson, 2011.
 
 > SOLINGEN, Rini van; BERGHOUT, Egon. The Goal/Question/Metric Method: A Practical Guide for Quality Improvement of Software Development. London: McGraw-Hill, 1999.
 
-> UNB-MDS (2025). DFemObras-2025.1 Project Repository. Universidade de Bras├¡lia, Campus Gama.
+> UNB-MDS (2025). DFemObras-2025.1 Project Repository. Universidade de Brasília, Campus Gama.
 
-> ONU (2025). Objetivos de Desenvolvimento Sustent├ível no Brasil. Dispon├¡vel em: [https://brasil.un.org/pt-br/sdgs](https://brasil.un.org/pt-br/sdgs). Acesso em: 24/10/2025.
+> ONU (2025). Objetivos de Desenvolvimento Sustentável no Brasil. Disponível em: [https://brasil.un.org/pt-br/sdgs](https://brasil.un.org/pt-br/sdgs). Acesso em: 24/10/2025.
 
 ---
 
-### Hist├│rico de Vers├Áes
+### Histórico de Versões
 
-| Vers├úo | Data       | Autor(es)                  | Descri├º├úo das Altera├º├Áes                                                         | Revisor |
+| Versão | Data       | Autor(es)                  | Descrição das Alterações                                                         | Revisor |
 |--------|------------|---------------------------|----------------------------------------------------------------------------------|---------|
-| 1.0    | 10/10/2025 | Nicolas                   | Cria├º├úo do documento com estrutura inicial.                                       |         |
-| 1.1    | 12/10/2025 | Ana Luiza Borba / Equipe  | Inclus├úo de GQM, m├®tricas e crit├®rios de avalia├º├úo.                              |         |
-| 1.2    | 14/10/2025 | Ana Luiza Borba / Equipe  | Revis├úo do texto, formata├º├úo e inclus├úo de f├│rmulas de m├®tricas.                 |         |
-| 1.3    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, hist├│rico de vers├Áes, refer├¬ncias e declara├º├úo de uso de IA.     |         |
-| 2.0    | 24/10/2025 | GitHub Copilot            | Reestrutura├º├úo completa seguindo modelo GQM modular da fase_2.                   |         |
+| 1.0    | 10/10/2025 | Nicolas                   | Criação do documento com estrutura inicial.                                       |         |
+| 1.1    | 12/10/2025 | Ana Luiza Borba / Equipe  | Inclusão de GQM, métricas e critérios de avaliação.                              |         |
+| 1.2    | 14/10/2025 | Ana Luiza Borba / Equipe  | Revisão do texto, formatação e inclusão de fórmulas de métricas.                 |         |
+| 1.3    | 14/10/2025 | Ana Luiza Borba           | Ajustes finais, histórico de versões, referências e declaração de uso de IA.     |         |
+| 2.0    | 24/10/2025 | GitHub Copilot            | Reestruturação completa seguindo modelo GQM modular da fase_2.                   |         |
 
 ---
