@@ -222,3 +222,42 @@ O desempenho está dentro dos limites esperados, com tempo de resposta adequado 
 ## 3.3.4 Conclusão
 Os resultados demonstram que o DFemObras atende às hipóteses definidas na Fase 02 para todas as métricas avaliadas. O sistema mostra-se funcional, eficiente e de fácil manutenção, apresentando maturidade em sua versão atual.
 
+## Bibliografia
+
+> BASILI, Victor R. et al. Linking Software Development and Business Strategy through Measurement. IEEE Computer, v. 43, n. 4, p. 57-65, abr. 2010.
+
+> BASILI, Victor R.; CALDIERA, Gianluigi; ROMBACH, H. Dieter. Goal Question Metric Paradigm. In: MARCINIAK, John J. (Ed.). Encyclopedia of Software Engineering. New York: John Wiley & Sons, 1994. p. 528-532.
+
+> FENTON, Norman E.; PFLEEGER, Shari Lawrence. Software Metrics: A Rigorous and Practical Approach. 3. ed. Boca Raton: CRC Press, 2014.
+
+> ISO/IEC 25010:2011. Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models. Geneva: International Organization for Standardization, 2011.
+
+> PRESSMAN, Roger S. Engenharia de Software – Uma Abordagem Profissional. 8ª edição. McGraw-Hill, 2016.
+
+> SOMMERVILLE, Ian. Software Engineering. 9th Edition. Pearson, 2011.
+
+> SOLINGEN, Rini van; BERGHOUT, Egon. The Goal/Question/Metric Method: A Practical Guide for Quality Improvement of Software Development. London: McGraw-Hill, 1999.
+
+> UNB-MDS (2025). DFemObras-2025.1 Project Repository. Universidade de Brasília, Campus Gama.
+
+> ONU (2025). Objetivos de Desenvolvimento Sustentável no Brasil. Disponível em: https://brasil.un.org/pt-br/sdgs. Acesso em: 24/10/2025.
+
+---
+
+### Histórico de Versões
+
+| Versão | Data       | Autor(es)                          | Descrição das Alterações                                                     |
+|--------|------------|------------------------------------|------------------------------------------------------------------------------|
+| 1.0    | 10/10/2025 | Nicollas Gabriel                   | Criação do documento com estrutura inicial.                                  |
+| 1.1    | 11/10/2025 | Ana Luiza Borba / Equipe           | Inclusão de GQM, métricas e critérios de avaliação.                          |
+| 1.2    | 19/10/2025 | Ana Luiza Borba                    | Revisão do texto, formatação e inclusão de fórmulas de métricas.             |
+| 1.3    | 24/10/2025 | Ana Luiza Borba e Nicollas Gabriel | Ajustes finais e histórico de versões.                                       |
+| **1.4** | **17/11/2025** | **Ana Luiza Borba** | Atualização da Fase 03, ajustes de métricas, análise e revisão final do documento. |
+
+---
+
+### Declaração de Uso de IA
+
+Parte da formatação textual, organização estrutural e apoio na redação deste documento contou com auxílio de ferramentas de Inteligência Artificial para otimização da escrita, mantendo-se a responsabilidade integral da autora sobre o conteúdo técnico, decisões metodológicas e resultados apresentados.
+
+
