@@ -4,7 +4,7 @@
 
 ### 4.1.1 Objetivos
 
-Esta etapa representa a coleta de dados e a análise das métricas previamente estabelecidas. Nesse momento, utilizam-se as métricas definidas pelo método GQM na Fase 2, bem como os instrumentos de medição planejados na Fase 3, assegurando que os dados obtidos sejam precisos, consistentes e alinhados aos objetivos do estudo. O propósito central desta fase é transformar os dados coletados em informações significativas, permitindo avaliar o desempenho e se o DFemObras atende aos requisitos de qualidade. }
+Esta etapa representa a coleta de dados e a análise das métricas previamente estabelecidas. Nesse momento, utilizam-se as métricas definidas pelo método GQM na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02), bem como os instrumentos de medição planejados na Fase 3, assegurando que os dados obtidos sejam precisos, consistentes e alinhados aos objetivos do estudo. O propósito central desta fase é transformar os dados coletados em informações significativas, permitindo avaliar o desempenho e se o DFemObras atende aos requisitos de qualidade.
 
 ### 4.1.2 Cronograma da Coleta
 
@@ -22,7 +22,7 @@ Esta etapa representa a coleta de dados e a análise das métricas previamente e
 
 ### 4.2.1 Execução da Coleta e Análise
 
-A coleta foi realizada com base nas métricas definidas na Fase 02 e analisados com base na Fase 03.
+A coleta foi realizada com base nas métricas definidas na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02) e analisados com base na [Fase 03](/2025-2_T01_GRACE_HOPPER/fases/fases03).
 
 ### 4.2.2 Dados Coletados
 
@@ -299,7 +299,7 @@ O desempenho está dentro dos limites esperados, com tempo de resposta adequado 
 ---
 
 ## 4.4 Conclusão
-Os resultados demonstram que o DFemObras atende às hipóteses definidas na Fase 02 para todas as métricas avaliadas. O sistema mostra-se funcional, eficiente e de fácil manutenção, apresentando maturidade em sua versão atual.
+Os resultados demonstram que o DFemObras atende às hipóteses definidas na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02) para todas as métricas avaliadas. O sistema mostra-se funcional, eficiente e de fácil manutenção, apresentando maturidade em sua versão atual.
 
 ## Bibliografia
 
