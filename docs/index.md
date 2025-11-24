@@ -36,5 +36,9 @@ Com a finalidade de apoiar o desenvolvimento científico dos universitários, es
 |--------|----------|--------------------------|---------------|---------|
 | 1.0    | 29/09/25 | Estrutura inicial MkDocs | Nicolas       | Revisor |
 | 1.1    | 01/10/25 | Atualização da fase 1    | Ana Luiza     | Revisor |
+| 1.1    | 24/10/2025 | Atualização da fase 2    | Equipe Grace Hopper     | Revisor |
+| 1.2    | 23/11/2025 | Atualização da fase 3    | Equipe Grace Hopper     | Revisor |
+| 1.3    | 24/11/2025 | Atualização da fase 4    | Equipe Grace Hopper     | Revisor |
+
 
 ---
