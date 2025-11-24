@@ -1,6 +1,6 @@
 # Avaliação da Qualidade de Produto de Software: DFemObras
 
-**Disciplina:** FGA315 - Qualidade de Software 1  
+**Disciplina:** FGA0315 - Qualidade de Software 1  
 **Professora:** Cristiane Ramos  
 
 

@@ -3,7 +3,7 @@
 ## 3.1 Planejamento
 
 ### 3.1.1 Objetivos
-O objetivo desta fase é definir, especificar e planejar a coleta de dados necessários para avaliar o DFemObras de acordo com o modelo GQM definido na [Fase 02](fases/fases02.md). As características avaliadas são: Funcionalidade, Manutenibilidade e Eficiência, considerando suas perguntas de avaliação, métricas e hipóteses.
+O objetivo desta fase é definir, especificar e planejar a coleta de dados necessários para avaliar o DFemObras de acordo com o modelo GQM definido na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02). As características avaliadas são: Funcionalidade, Manutenibilidade e Eficiência, considerando suas perguntas de avaliação, métricas e hipóteses.
 
 ### 3.1.2 Responsabilidades
 - Equipe de Qualidade: definição do plano de coleta, análise crítica e validação dos resultados.
@@ -37,9 +37,10 @@ O objetivo desta fase é definir, especificar e planejar a coleta de dados neces
 ## 3.2 Coleta de Dados
 
 ### 3.2.1 Execução da Coleta
-A coleta será realizada com base nas métricas definidas na Fase 02.
 
-### 3.2.2 Dados Coletados
+A coleta será realizada com base nas métricas definidas na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02).
+
+### 3.2.2 Dados para coleta
 
 ---
 
