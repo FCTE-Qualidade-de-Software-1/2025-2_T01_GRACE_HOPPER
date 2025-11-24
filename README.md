@@ -24,12 +24,16 @@ O projeto foi dividido em quatro fases, cada uma contendo análises e entregas e
   - Metodologia adotada
   - Planejamento da avaliação  
 
-- [Fase 03](fases/fases03.md) → **Análise da Avaliação**
+- [Fase 03](fases/fases03.md) → **Planejamento da Coleta e Análise**
+  - Objetivos
+  - Responsabiliades
+  - Técnicas
+  - Dados para a coleta
+
+- [Fase 04](fases/fases04.md) → **Coleta de dados, Análise da Avaliação, Conclusões e Recomendações**
   - Resultados da avaliação com base nos critérios definidos
   - Evidências coletadas
   - Discussão e pontos fortes do sistema  
-
-- [Fase 04](fases/fases04.md) → **Conclusões e Recomendações**
   - Conclusões finais da análise
   - Recomendações de melhorias
   - Considerações para trabalhos futuros  
@@ -51,9 +55,11 @@ O projeto foi dividido em quatro fases, cada uma contendo análises e entregas e
 
 ## Histórico de Versões
 
-| Versão | Data     | Descrição                | Autor     | Revisor |
-|--------|----------|--------------------------|-----------|---------|
-| 1.0    | 29/09/25 | Estrutura inicial MkDocs | Nicolas   | Revisor |
-| 1.1    | 01/10/25 | Atualização da Fase 1    | Ana Luiza | Revisor |
-
+| Versão | Data     | Descrição                | Autor         | Revisor |
+|--------|----------|--------------------------|---------------|---------|
+| 1.0    | 29/09/25 | Estrutura inicial MkDocs | Nicolas       | Revisor |
+| 1.1    | 01/10/25 | Fase 1    | Ana Luiza     | Revisor |
+| 1.1    | 24/10/2025 | Fase 2    | Equipe Grace Hopper     | Revisor |
+| 1.2    | 23/11/2025 | Fase 3    | Equipe Grace Hopper     | Revisor |
+| 1.3    | 23/11/2025 | Fase 4    | Equipe Grace Hopper     | Revisor |
 ---

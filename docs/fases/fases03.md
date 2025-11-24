@@ -1,4 +1,4 @@
-# FASE 03 — PLANEJAMENTO, COLETA E ANÁLISE (DFemObras)
+# FASE 03 — PLANEJAMENTO DA COLETA E ANÁLISE (DFemObras)
 
 ## 3.1 Planejamento
 
@@ -143,5 +143,3 @@ Com base nessa nessas métricas, será possível realizar uma coleta de dados co
 | 1.5 | **23/11/2025** | Arthur Fonseca Vale | Atualização da Fase 03, ajustes da documentação. |
 
 ---
-
-### Declaração de Uso de IA
