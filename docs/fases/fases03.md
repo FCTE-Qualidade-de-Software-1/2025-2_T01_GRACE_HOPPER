@@ -83,7 +83,33 @@ Fórmula:
 F3 = média dos escores (0–5)  
 
 Escores coletados:  
-4, 4, 5, 5, 4, 5, 4, 5, 4, 5, 4, 4, 4, 5, 4, 4, 4, 5, 4, 5, 4, 4
+### Tabela F3 — Adequação Funcional (escores por função/requisito)
+
+| ID | Função/Requisito avaliado | Escore (0–5) |
+|----|---------------------------|--------------|
+|  1 | Função/Requisito 01       | 4            |
+|  2 | Função/Requisito 02       | 4            |
+|  3 | Função/Requisito 03       | 5            |
+|  4 | Função/Requisito 04       | 5            |
+|  5 | Função/Requisito 05       | 4            |
+|  6 | Função/Requisito 06       | 5            |
+|  7 | Função/Requisito 07       | 4            |
+|  8 | Função/Requisito 08       | 5            |
+|  9 | Função/Requisito 09       | 4            |
+| 10 | Função/Requisito 10       | 5            |
+| 11 | Função/Requisito 11       | 4            |
+| 12 | Função/Requisito 12       | 4            |
+| 13 | Função/Requisito 13       | 4            |
+| 14 | Função/Requisito 14       | 5            |
+| 15 | Função/Requisito 15       | 4            |
+| 16 | Função/Requisito 16       | 4            |
+| 17 | Função/Requisito 17       | 4            |
+| 18 | Função/Requisito 18       | 5            |
+| 19 | Função/Requisito 19       | 4            |
+| 20 | Função/Requisito 20       | 5            |
+| 21 | Função/Requisito 21       | 4            |
+| 22 | Função/Requisito 22       | 4            |
+
 
 Resultado:  
 F3 = **4,36**
@@ -97,7 +123,34 @@ Fórmula:
 M1 = soma(CC) / número de funções  
 
 Complexidades coletadas (20 funções):  
-6, 7, 8, 5, 9, 7, 6, 8, 7, 5, 6, 7, 8, 7, 6, 7, 8, 6, 7, 7  
+### Métrica M1 — Complexidade Ciclomática por função
+
+### Métrica M1 — Complexidade Ciclomática por função
+
+| ID | Função    | Complexidade ciclomática (CC) |
+|----|-----------|-------------------------------|
+|  1 | Função F01| 6                             |
+|  2 | Função F02| 7                             |
+|  3 | Função F03| 8                             |
+|  4 | Função F04| 5                             |
+|  5 | Função F05| 9                             |
+|  6 | Função F06| 7                             |
+|  7 | Função F07| 6                             |
+|  8 | Função F08| 8                             |
+|  9 | Função F09| 7                             |
+| 10 | Função F10| 5                             |
+| 11 | Função F11| 6                             |
+| 12 | Função F12| 7                             |
+| 13 | Função F13| 8                             |
+| 14 | Função F14| 7                             |
+| 15 | Função F15| 6                             |
+| 16 | Função F16| 7                             |
+| 17 | Função F17| 8                             |
+| 18 | Função F18| 6                             |
+| 19 | Função F19| 7                             |
+| 20 | Função F20| 7                             |
+
+
 
 Resultado:  
 M1 = **6,95**
@@ -108,8 +161,35 @@ M1 = **6,95**
 Fórmula:  
 M2 = soma(LOC) / número de funções  
 
-LOC analisadas:  
-32, 28, 40, 30, 35, 38, 29, 41, 30, 33, 32, 29, 34, 40, 31, 30, 32, 33, 28, 36  
+LOC analisadas:     
+### Métrica M2 — Tamanho das funções (LOC) por unidade
+
+### Métrica M2 — Tamanho das funções (LOC)
+
+| ID | Função    | Tamanho (LOC) |
+|----|-----------|---------------|
+|  1 | Função F01| 32            |
+|  2 | Função F02| 28            |
+|  3 | Função F03| 40            |
+|  4 | Função F04| 30            |
+|  5 | Função F05| 35            |
+|  6 | Função F06| 38            |
+|  7 | Função F07| 29            |
+|  8 | Função F08| 41            |
+|  9 | Função F09| 30            |
+| 10 | Função F10| 33            |
+| 11 | Função F11| 32            |
+| 12 | Função F12| 29            |
+| 13 | Função F13| 34            |
+| 14 | Função F14| 40            |
+| 15 | Função F15| 31            |
+| 16 | Função F16| 30            |
+| 17 | Função F17| 32            |
+| 18 | Função F18| 33            |
+| 19 | Função F19| 28            |
+| 20 | Função F20| 36            |
+
+ 
 
 Resultado:  
 M2 = **33,2 linhas**
@@ -121,8 +201,15 @@ Fórmula:
 M3 = (LOC duplicadas / LOC total) × 100  
 
 Dados:
-- LOC total: 4850  
-- LOC duplicadas: 230  
+### Métrica M3 — Duplicação de código (resumo da análise)
+
+| Item                         | Valor  | Descrição                                                |
+|------------------------------|--------|----------------------------------------------------------|
+| LOC total analisadas         | 4850   | Total de linhas de código do sistema DFemObras          |
+| LOC identificadas como duplicadas | 230    | Linhas repetidas em trechos de código semelhantes        |
+| Percentual de duplicação (M3)| 4,74%  | (LOC duplicadas / LOC total) × 100                      |
+| Unidade de análise           | Sistema| Conjunto do código-fonte do DFemObras                   |
+
 
 Resultado:  
 M3 = **4,74%**
@@ -146,7 +233,21 @@ M4 = **7,9 comentários/função**
 
 ### Métrica E1 — Tempo Médio de Resposta  
 Tempos coletados (ms):  
-420, 510, 480, 530, 490, 460, 515, 505, 495, 470  
+### Tabela E1 — Tempos de resposta por execução de teste
+
+| Execução | Cenário / requisição avaliada        | Tempo (ms) |
+|----------|--------------------------------------|------------|
+| 1        | Execução 01 (cenário de teste)       | 420        |
+| 2        | Execução 02 (cenário de teste)       | 510        |
+| 3        | Execução 03 (cenário de teste)       | 480        |
+| 4        | Execução 04 (cenário de teste)       | 530        |
+| 5        | Execução 05 (cenário de teste)       | 490        |
+| 6        | Execução 06 (cenário de teste)       | 460        |
+| 7        | Execução 07 (cenário de teste)       | 515        |
+| 8        | Execução 08 (cenário de teste)       | 505        |
+| 9        | Execução 09 (cenário de teste)       | 495        |
+| 10       | Execução 10 (cenário de teste)       | 470        |
+
 
 Resultado:  
 E1 = **487,5 ms**
