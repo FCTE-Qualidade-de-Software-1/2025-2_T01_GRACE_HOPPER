@@ -9,11 +9,6 @@ Este documento apresenta os resultados da execução da avaliação do produto d
 * **Período de Avaliação:** Durante o Semestre
 * **Sessões de Teste Executadas:** 3 (Módulos A, B e C conforme Fase 03)
 
-* **Produto Avaliado:** DFemObras - Sistema Web de Transparência de Obras Públicas do DF
-* **Versão:** Versão estável disponível no repositório GitHub (2025.1)
-* **Período de Avaliação:** 27/11/2025 a 01/12/2025
-* **Sessões de Teste Executadas:** 3 (Módulos A, B e C conforme Fase 03)
-
 ---
 
 ## 2. Medição 1: Funcionalidade (Módulo A)
@@ -24,9 +19,9 @@ Esta seção apresenta as métricas relacionadas à completude funcional, corre�
 
 | Métrica | Descrição | Medida Coletada | Limiar de Julgamento ([Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02)) | Julgamento | Evidência |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TVO (Taxa de Visualização de Obras)** | Proporção de obras renderizadas no mapa. | 95% (19/20 obras testadas) | $\ge 95\% \implies$ Excelente | **EXCELENTE** | Print do mapa completo |
-| **ICD (Índice de Completude de Dados)** | Obras com campos obrigatórios completos. | 90% (9/10 obras) | $\ge 90\% \implies$ Excelente | **EXCELENTE** | Prints de detalhes das obras |
-| **ICF (Índice de Clareza Financeira)** | Clareza na apresentação de valores. | Média 4.2/5 | $\ge 4.0 \implies$ Bom | **BOM** | Prints de valores formatados |
+| **TVO (Taxa de Visualização de Obras)** | Proporção de obras renderizadas no mapa. | 95% (19/20 obras testadas) | >= 95% = Excelente | **EXCELENTE** | Print do mapa completo |
+| **ICD (Índice de Completude de Dados)** | Obras com campos obrigatórios completos. | 90% (9/10 obras) | >= 90% = Excelente | **EXCELENTE** | Prints de detalhes das obras |
+| **ICF (Índice de Clareza Financeira)** | Clareza na apresentação de valores. | Média 4.2/5 | >= 4.0 = Bom | **BOM** | Prints de valores formatados |
 
 ### 2.2. Detalhamento da Coleta - Módulo A
 
@@ -104,11 +99,11 @@ Esta seção apresenta as métricas relacionadas à qualidade do código, comple
 
 | Métrica | Descrição | Medida Coletada | Limiar de Julgamento ([Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02)) | Julgamento | Evidência |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **IR (Índice de Reusabilidade)** | Proporção de módulos reutilizáveis. | 65% (13/20 módulos) | $\ge 60\% \implies$ Bom | **BOM** | Análise de estrutura |
-| **CBO (Acoplamento)** | Média de dependências entre classes. | 8.2 | $\le 10 \implies$ Bom | **BOM** | Relatório SonarQube |
-| **CCM (Complexidade Ciclomática)** | Complexidade média das funções. | 6.95 | $\le 10 \implies$ Bom | **BOM** | Relatório de análise |
-| **DD (Densidade Documental)** | Proporção de comentários no código. | 18.5% | $15-25\% \implies$ Bom | **BOM** | Análise com cloc |
-| **CCT (Cobertura de Testes)** | Percentual de código testado. | 42% | $\ge 80\% \implies$ Crítico | **INSUFICIENTE** | Relatório de cobertura |
+| **IR (Índice de Reusabilidade)** | Proporção de módulos reutilizáveis. | 65% (13/20 módulos) | >= 60% = Bom | **BOM** | Análise de estrutura |
+| **CBO (Acoplamento)** | Média de dependências entre classes. | 8.2 | <= 10 = Bom | **BOM** | Relatório SonarQube |
+| **CCM (Complexidade Ciclomática)** | Complexidade média das funções. | 6.95 | <= 10 = Bom | **BOM** | Relatório de análise |
+| **DD (Densidade Documental)** | Proporção de comentários no código. | 18.5% | 15-25% = Bom | **BOM** | Análise com cloc |
+| **CCT (Cobertura de Testes)** | Percentual de código testado. | 42% | >= 80% = Crítico | **INSUFICIENTE** | Relatório de cobertura |
 
 ### 3.2. Detalhamento da Coleta - Módulo B
 
@@ -175,12 +170,12 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
 
 | Métrica | Descrição | Medida Coletada | Limiar de Julgamento ([Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02)) | Julgamento | Evidência |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TTC (Tempo Total Carregamento)** | Tempo até carregamento completo. | 3.8s | $\le 5s \implies$ Bom | **BOM** | Relatório Lighthouse |
-| **FCP (First Contentful Paint)** | Tempo até primeiro conteúdo visível. | 2.1s | $\le 3s \implies$ Bom | **BOM** | Relatório Lighthouse |
-| **TUC (Taxa Utilização CPU)** | Uso médio de CPU durante operação. | 34% | $\le 60\% \implies$ Excelente | **EXCELENTE** | DevTools Performance |
-| **CM (Consumo de Memória)** | Uso de memória RAM. | 182 MB | $\le 200MB \implies$ Excelente | **EXCELENTE** | DevTools Memory |
-| **ID (Índice Disponibilidade)** | Tempo de uptime do serviço. | 99.2% | $\ge 99\% \implies$ Excelente | **EXCELENTE** | Monitoramento |
-| **CIC (Conformidade Cloud)** | Sistema hospedado em Cloud. | Sim (GitHub Pages) | Cloud = 1 $\implies$ Atende | **ATENDE** | Documentação |
+| **TTC (Tempo Total Carregamento)** | Tempo até carregamento completo. | 3.8s | <= 5s = Bom | **BOM** | Relatório Lighthouse |
+| **FCP (First Contentful Paint)** | Tempo até primeiro conteúdo visível. | 2.1s | <= 3s = Bom | **BOM** | Relatório Lighthouse |
+| **TUC (Taxa Utilização CPU)** | Uso médio de CPU durante operação. | 34% | <= 60% = Excelente | **EXCELENTE** | DevTools Performance |
+| **CM (Consumo de Memória)** | Uso de memória RAM. | 182 MB | <= 200MB = Excelente | **EXCELENTE** | DevTools Memory |
+| **ID (Índice Disponibilidade)** | Tempo de uptime do serviço. | 99.2% | >= 99% = Excelente | **EXCELENTE** | Monitoramento |
+| **CIC (Conformidade Cloud)** | Sistema hospedado em Cloud. | Sim (GitHub Pages) | Cloud = Atende | **ATENDE** | Documentação |
 
 ### 4.2. Detalhamento da Coleta - Módulo C
 
