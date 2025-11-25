@@ -246,12 +246,6 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
 
 ## 5. Planilha de Coleta de Dados
 
-A coleta detalhada de todas as métricas, tempos, observações e cálculos intermediários foi realizada utilizando uma planilha estruturada conforme o plano da [Fase 03](/2025-2_T01_GRACE_HOPPER/fases/fases03).
-
-**Link da Planilha:** [Acesse aqui a Planilha de Coleta - DFemObras](https://docs.google.com/spreadsheets/d/EXEMPLO_DFEMOBRAS/edit?usp=sharing)
-
-> **Nota:** A planilha contém abas separadas para cada módulo (A, B, C) com dados brutos, cálculos e observações detalhadas.
-
 ---
 
 ## 6. Análise Consolidada e Julgamento Final
