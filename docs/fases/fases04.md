@@ -304,14 +304,9 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
 * **Resultado:** Sistema atende ao critério Cloud = **1 (Sim)**
 
 <div style="text-align: center;">
-    <p><strong>Imagem 7 - Evidência </strong></p>
+    <p><strong>Imagem 7 - Evidência</strong></p>
+    <img src="assets/img3.jpg" alt="Evidência de Teste" width="100%">
 </div>
-  
-<center>
-
-![](https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/blob/main/docs/fases/assets/img3.jpg)
-
-</center>
 
 ---
 
