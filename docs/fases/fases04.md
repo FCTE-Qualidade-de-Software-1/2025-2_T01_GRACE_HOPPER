@@ -309,7 +309,7 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
   
 <center>
 
-![](https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img1.png)
+![](https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/blob/main/docs/fases/assets/img1.png)
 
 </center>
 
