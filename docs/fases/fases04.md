@@ -166,3 +166,27 @@ Esta seção apresenta as métricas relacionadas à qualidade do código, comple
 * Total de linhas de código: 3500
 * Total de linhas de comentários: 897
 * **Resultado:** (897/3500) × 100 = **25.6%**
+
+---
+
+#### **Passo B3: Análise de Testes**
+
+* **Execução:** 25/11/2025,  15:10-15:30
+
+**Cobertura de Código por Testes (CCT):**
+* Pasta de testes identificada: `/tests`
+* Framework: Jest
+* Arquivos de teste encontrados: 8
+* **Resultado de Cobertura:**
+    * Linhas cobertas: 0
+    * Total de linhas (para cobertura): 378
+    * **CCT = (0/378) × 100 = 0.0%**
+* **Observação Crítica:** Cobertura crítica inexistente (0.0%). Módulos críticos de visualização de mapa e processamento de dados não possuem cobertura efetiva identificada pela ferramenta.
+
+O vídeo abaixo publicado no YouTube apresenta o teste feito no SonarQube, onde seus resultados foram utilizados nas subseções.
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/15Wm080ZTM8"
+title="YouTube video player" frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
