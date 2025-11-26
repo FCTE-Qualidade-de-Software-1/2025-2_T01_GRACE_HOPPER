@@ -168,7 +168,9 @@ Esta seção apresenta as métricas relacionadas à qualidade do código, comple
     * **CCT = (0/378) × 100 = 0.0%**
 * **Observação Crítica:** Cobertura crítica inexistente (0.0%). Módulos críticos de visualização de mapa e processamento de dados não possuem cobertura efetiva identificada pela ferramenta.
 
-O vídeo abaixo publicado no YouTube apresenta o teste feito no SonarQube, onde seus resultados foram utilizados nas subseções.
+O vídeo abaixo publicado no YouTube apresenta o teste feito no SonarQube, onde seus resultados foram utilizados nas subseções acima.
+
+---
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/15Wm080ZTM8"
@@ -177,6 +179,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen></iframe>
 
 ---
+
 ## 4. Medição 3: Eficiência (Módulo C)
 
 Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos e infraestrutura.
@@ -458,6 +461,55 @@ O **DFemObras** demonstra ser um sistema de **alta qualidade** que cumpre efetiv
 - **Cobertura de Testes Insuficiente (42%):** Principal vulnerabilidade identificada que requer ação imediata para garantir sustentabilidade do projeto.
 
 **Avaliação Geral:** O sistema atende **10 de 11 hipóteses** definidas na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02) (91% de sucesso), posicionando-se como uma **solução madura e confiável** para transparência pública, com um plano de ação claro para atingir excelência em todas as dimensões de qualidade.
+
+---
+
+## 7. Uso de IA no Desenvolvimento do Trabalho
+
+Foram utilizadas **ferramentas de IA generativas** (como ChatGPT e GitHub Copilot) para **apoiar pesquisas**, **formatar o texto**, **corrigir gramática/ortografia** e **sugerir estruturas de documentação**. As saídas foram **revisadas criticamente** pela equipe, com checagem de coerência com a **Fase 1**, **Fase 2** e a **Fase 3**, garantindo adequação ao contexto específico do DFemObras.
+
+---
+
+## Equipe e Contribuições
+
+| Matrícula | Nome completo | Contribuição (%) |
+| :--- | :--- | :--- |
+| 211062802 | [Nicollas Gabriel Oliveira Sousa](https://github.com/Nicollaxs) | 16,6 |
+| 200014226 | [Ana Luiza Borba de Abrantes](https://github.com/luabrantess) | 16,6 |
+| 211030934 | [Artur da Silva Pereira](https://github.com/R2PX) | 16,6 |
+| 222022064 | [Carlos Eduardo de Sousa Paz](https://github.com/dudupaz) | 16,6 |
+| 221031120 | [Arthur Fonseca Vale](https://github.com/arthurfonsecaa) | 16,6 |
+| 221008211 | [José Felipe Duarte Guedes de Oliveira](https://github.com/Jose1277) | 16,6 |
+
+---
+
+## Bibliografia
+
+> JETBRAINS. Qodana: the code quality platform. Disponível em: https://www.jetbrains.com/qodana/. Acesso em: 26 nov. 2025.
+
+> BASILI, Victor R. et al. Linking Software Development and Business Strategy through Measurement. IEEE Computer, v. 43, n. 4, p. 57-65, abr. 2010.
+
+> BASILI, Victor R.; CALDIERA, Gianluigi; ROMBACH, H. Dieter. Goal Question Metric Paradigm. In: MARCINIAK, John J. (Ed.). Encyclopedia of Software Engineering. New York: John Wiley & Sons, 1994. p. 528-532.
+
+> FENTON, Norman E.; PFLEEGER, Shari Lawrence. Software Metrics: A Rigorous and Practical Approach. 3. ed. Boca Raton: CRC Press, 2014.
+
+> ISO/IEC 25010:2011. Systems and software engineering – Systems and software Quality Requirements and Evaluation (SQuaRE) – System and software quality models. Geneva: International Organization for Standardization, 2011.
+
+> PRESSMAN, Roger S. Engenharia de Software – Uma Abordagem Profissional. 8ª edição. McGraw-Hill, 2016.
+
+> SOMMERVILLE, Ian. Software Engineering. 9th Edition. Pearson, 2011.
+
+> SOLINGEN, Rini van; BERGHOUT, Egon. The Goal/Question/Metric Method: A Practical Guide for Quality Improvement of Software Development. London: McGraw-Hill, 1999.
+
+> UNB-MDS (2025). DFemObras-2025.1 Project Repository. Universidade de Brasília, Campus Gama.
+
+> ONU (2025). Objetivos de Desenvolvimento Sustentável no Brasil. Disponível em: https://brasil.un.org/pt-br/sdgs. Acesso em: 24/10/2025.
+
+>Aqui está a referência formatada nas normas da ABNT (NBR 6023).
+
+Importante: Eu removi os códigos de rastreamento de anúncio (?source=google...) do link, pois em trabalhos acadêmicos deve-se usar o link limpo (canônico).
+
+---
 
 ### Histórico de Versões
 
