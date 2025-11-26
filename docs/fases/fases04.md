@@ -116,3 +116,53 @@ Esta seção apresenta as métricas relacionadas à completude funcional, corre�
 ![](assets/img11.png)
 
 </center>
+
+---
+
+## 3. Medição 2: Manutenibilidade (Módulo B)
+
+Esta seção apresenta as métricas relacionadas à qualidade do código, complexidade, documentação e testabilidade.
+
+### 3.1. Resumo das Métricas de Manutenibilidade
+
+| Métrica | Descrição | Medida Coletada | Limiar de Julgamento ([Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02)) | Julgamento | 
+| :--- | :--- | :--- | :--- | :--- |
+| **IR (Índice de Reusabilidade)** | Proporção de módulos reutilizáveis. | 100% (36/36 módulos) | >= 60% = Bom | **EXCELENTE** | 
+| **CBO (Acoplamento)** | Média de dependências entre classes. | 8.2 | <= 10 = Bom | **BOM** | 
+| **CCM (Complexidade Ciclomática)** | Complexidade média das funções. | 6.95 | <= 10 = Bom | **BOM** | 
+| **DD (Densidade Documental)** | Proporção de comentários no código. | 25.6% | 15-25% = Bom | **EXCELENTE** | Análise com cloc |
+| **CCT (Cobertura de Testes)** | Percentual de código testado. | 0.0% | >= 80% = Crítico | **INSUFICIENTE** | 
+
+### 3.2. Detalhamento da Coleta - Módulo B
+
+#### **Passo B1: Análise Estática de Código**
+
+* **Execução:** 25/11/2025, 14:00-14:40
+* **Avaliadores:** Artur, Carlos
+* **Ferramenta:** SonarQube Community Edition
+
+**Índice de Reusabilidade (IR):**
+* Total de módulos analisados: 36
+* Módulos com baixo acoplamento e alta coesão: 36
+* **Resultado:** (36/36) × 100 = **100%**
+
+**Acoplamento entre Objetos (CBO):**
+* Média de dependências por classe: **8.2**
+* Classes com CBO > 15: 2 (identificadas como pontos de melhoria)
+
+---
+
+#### **Passo B2: Complexidade e Documentação**
+
+* **Execução:** 25/11/2025, 14:40-15:10
+**Complexidade Ciclomática Média (CCM):**
+* Total de funções analisadas: 20
+* Soma de complexidades: 139
+* **Resultado:** 139/20 = **6.95**
+* Funções com CC > 10: 0 (todas dentro do limite aceitável)
+
+**Densidade Documental (DD):**
+* Ferramenta utilizada: `cloc` (Count Lines of Code)
+* Total de linhas de código: 3500
+* Total de linhas de comentários: 897
+* **Resultado:** (897/3500) × 100 = **25.6%**
