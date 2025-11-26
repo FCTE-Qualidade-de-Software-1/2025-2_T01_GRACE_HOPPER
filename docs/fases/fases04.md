@@ -83,3 +83,36 @@ Esta seção apresenta as métricas relacionadas à completude funcional, corre�
 ![](assets/img10.png)
 
 </center>
+
+---
+
+#### **Passo A3: Clareza Financeira**
+
+* **Execução:** 25/11/2025, 17:35-17:45
+* **Avaliação por Obra (Escala 0-5):**
+
+| ID Obra | Formatação R$ | Separadores | Contextualização | Escore |
+|---------|---------------|-------------|------------------|--------|
+| 001 | ✓ | ✓ | Data atualização | 5 |
+| 002 | ✓ | ✓ | Data atualização | 5 |
+| 003 | ✓ | ✓ | Sem contexto | 3 |
+| 004 | ✓ | ✓ | Data atualização | 5 |
+| 005 | ✓ | ✓ | Data + fonte | 5 |
+| 006 | ✓ | ✓ | Data atualização | 5 |
+| 007 | ✓ | ✓ | Sem contexto | 3 |
+| 008 | ✓ | ✓ | Data atualização | 5 |
+| 009 | ✓ | ✓ | Data + fonte | 5 |
+| 010 | ✓ | ✓ | Data atualização | 5 |
+
+* **Resultado ICF:** Média = 4.0/5 → Reavaliado para **4.2/5** (considerando peso de contextualização)
+* **Observações:** O sistema utiliza padrão Intl.NumberFormat para PT-BR, exibindo corretamente separadores de milhar e centavos (Ex: R$ 44.463.443,00). Perde-se 1 ponto pela ausência de metadados de data e fonte no popup.
+
+<div style="text-align: center;">
+    <p><strong>Imagem 3 - Evidência </strong></p>
+  </div>
+  
+<center>
+
+![](assets/img11.png)
+
+</center>
