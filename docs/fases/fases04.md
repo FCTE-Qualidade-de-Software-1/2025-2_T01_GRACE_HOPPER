@@ -168,10 +168,11 @@ Esta seção apresenta as métricas relacionadas à qualidade do código, comple
     * **CCT = (0/378) × 100 = 0.0%**
 * **Observação Crítica:** Cobertura crítica inexistente (0.0%). Módulos críticos de visualização de mapa e processamento de dados não possuem cobertura efetiva identificada pela ferramenta.
 
-O vídeo abaixo publicado no YouTube apresenta o teste feito no SonarQube, onde seus resultados foram utilizados nas subseções acima.
-
 ---
 
+O vídeo abaixo publicado no YouTube apresenta o teste feito no SonarQube, onde seus resultados foram utilizados nas subseções acima.
+
+<p><strong>Vídeo 1 - Evidência</strong></p>
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/15Wm080ZTM8"
 title="YouTube video player" frameborder="0"
@@ -464,7 +465,7 @@ O **DFemObras** demonstra ser um sistema de **alta qualidade** que cumpre efetiv
 
 ---
 
-## 7. Uso de IA no Desenvolvimento do Trabalho
+## 10. Uso de IA no Desenvolvimento do Trabalho
 
 Foram utilizadas **ferramentas de IA generativas** (como ChatGPT e GitHub Copilot) para **apoiar pesquisas**, **formatar o texto**, **corrigir gramática/ortografia** e **sugerir estruturas de documentação**. As saídas foram **revisadas criticamente** pela equipe, com checagem de coerência com a **Fase 1**, **Fase 2** e a **Fase 3**, garantindo adequação ao contexto específico do DFemObras.
 
