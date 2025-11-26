@@ -37,14 +37,9 @@ Esta seção apresenta as métricas relacionadas à completude funcional, corre�
 * **Evidência:** 
 
 <div style="text-align: center;">
-    <p><strong>Imagem 1 - Evidência </strong></p>
-  </div>
-  
-<center>
-
-![](assets/img9.png)
-
-</center>
+    <p><strong>Imagem 1 - Evidência</strong></p>
+    <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img9.png" alt="Evidência de Teste" width="100%">
+</div>
 
 ---
 
@@ -75,14 +70,9 @@ Esta seção apresenta as métricas relacionadas à completude funcional, corre�
 * **Resultado ICD:** 10/10 obras completas = **100%**
 
 <div style="text-align: center;">
-    <p><strong>Imagem 2 - Evidência </strong></p>
-  </div>
-  
-<center>
-
-![](assets/img10.png)
-
-</center>
+    <p><strong>Imagem 2 - Evidência</strong></p>
+    <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img10.png" alt="Evidência de Teste" width="100%">
+</div>
 
 ---
 
@@ -108,14 +98,9 @@ Esta seção apresenta as métricas relacionadas à completude funcional, corre�
 * **Observações:** O sistema utiliza padrão Intl.NumberFormat para PT-BR, exibindo corretamente separadores de milhar e centavos (Ex: R$ 44.463.443,00). Perde-se 1 ponto pela ausência de metadados de data e fonte no popup.
 
 <div style="text-align: center;">
-    <p><strong>Imagem 3 - Evidência </strong></p>
-  </div>
-  
-<center>
-
-![](assets/img11.png)
-
-</center>
+    <p><strong>Imagem 3 - Evidência</strong></p>
+    <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img11.png" alt="Evidência de Teste" width="100%">
+</div>
 
 ---
 
@@ -231,14 +216,9 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
 * **Score Lighthouse:** 97/100 (Performance)
 
 <div style="text-align: center;">
-    <p><strong>Imagem 4 - Evidência </strong></p>
-  </div>
-  
-<center>
-
-![](assets/img2.png)
-
-</center>
+    <p><strong>Imagem 4 - Evidência</strong></p>
+    <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img2.png" alt="Evidência de Teste" width="100%">
+</div>
 
 ---
 
@@ -259,14 +239,9 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
 * **Resultado:** (6.993 / 62.174) × 100 = **11.2%**
 
 <div style="text-align: center;">
-    <p><strong>Imagem 5 - Evidência </strong></p>
-  </div>
-  
-<center>
-
-![](assets/img5.png)
-
-</center>
+    <p><strong>Imagem 5 - Evidência</strong></p>
+    <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img5.png" alt="Evidência de Teste" width="100%">
+</div>
 
 **Consumo de Memória (CM):**
 * Ferramenta: Chrome DevTools > Memory
@@ -276,16 +251,9 @@ Esta seção apresenta as métricas relacionadas ao desempenho, uso de recursos 
 * **Evidência:** 
 
 <div style="text-align: center;">
-    <p><strong>Imagem 6 - Evidência </strong></p>
-  </div>
-  
-<center>
-
-![](assets/img7.png)
-
-</center>
-
----
+    <p><strong>Imagem 6 - Evidência</strong></p>
+    <img src="https://raw.githubusercontent.com/FCTE-Qualidade-de-Software-1/2025-2_T01_GRACE_HOPPER/refs/heads/main/docs/fases/assets/img7.png" alt="Evidência de Teste" width="100%">
+</div>
 
 #### **Passo C3: Verificação de Infraestrutura**
 
