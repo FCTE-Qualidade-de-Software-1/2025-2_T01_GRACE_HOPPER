@@ -408,3 +408,100 @@ A tabela a seguir consolida os dados brutos coletados durante as sessões de tes
 | H3.2: ID ≥ 99% | 99.2% | **ATENDIDA** |
 
 **Taxa de Sucesso das Hipóteses:** 10/11 (91%)
+
+---
+
+## 7. Recomendações e Plano de Ação
+
+### 7.1. Prioridade ALTA (Crítica)
+
+#### **PRIORIDADE ALTA - Aumentar Cobertura de Testes (CCT: 42% → Meta: 80%)**
+
+* **Justificativa:** Cobertura insuficiente representa risco para manutenção e evolução segura do sistema.
+* **Ações:**
+    1. Implementar testes unitários para módulos de processamento de dados da API.
+    2. Criar testes de integração para fluxo completo de visualização de obras.
+    3. Adicionar testes E2E para cenários críticos de usuário.
+    4. Configurar CI/CD para bloquear PRs com cobertura < 70%.
+* **Responsável:** Equipe de Desenvolvimento
+* **Prazo:** 60 dias
+* **Impacto Esperado:** Redução de 70% em bugs de regressão.
+
+---
+
+### 7.2. Prioridade MÉDIA
+
+#### **PRIORIDADE MÉDIA - Melhorar Contextualização de Dados Financeiros**
+
+* **Justificativa:** Algumas obras não apresentam fonte ou data de atualização dos valores.
+* **Ações:**
+    1. Adicionar campo obrigatório de "última atualização" para todos os valores.
+    2. Incluir link para fonte oficial dos dados (API governamental).
+    3. Implementar indicador visual de "dados desatualizados" (>30 dias).
+* **Responsável:** Equipe de UX + Desenvolvimento
+* **Prazo:** 30 dias
+* **Impacto Esperado:** ICF de 4.0/5 → 4.8/5.
+
+---
+
+#### **PRIORIDADE MÉDIA - Resolver Obra com Coordenadas Inválidas**
+
+* **Justificativa:** 1 obra (5%) não aparece no mapa por coordenadas geográficas incorretas.
+* **Ações:**
+    1. Implementar validação de coordenadas no processo de importação de dados.
+    2. Adicionar fallback para geocodificação via endereço quando coordenadas forem inválidas.
+    3. Criar alerta visual para administradores sobre obras com problemas de localização.
+* **Responsável:** Equipe de Backend
+* **Prazo:** 15 dias
+* **Impacto Esperado:** TVO de 95% → 100%.
+
+---
+
+### 7.3. Prioridade BAIXA (Melhorias Incrementais)
+
+#### **PRIORIDADE BAIXA - Otimizar Desempenho Adicional**
+
+* **Justificativa:** Embora já excelente, há margem para otimização.
+* **Ações:**
+    1. Implementar lazy loading para marcadores de mapa fora da viewport.
+    2. Adicionar service worker para cache offline de dados estáticos.
+    3. Comprimir assets (imagens, ícones) com WebP.
+* **Responsável:** Equipe de Frontend
+* **Prazo:** 90 dias
+* **Impacto Esperado:** TTC de 3.8s → <3s, FCP de 0.8s → <0.5s.
+
+---
+
+## 8. Limitações da Avaliação
+
+* **Amostragem Limitada:** Apenas 20 obras foram analisadas em profundidade (representativa, mas não exaustiva).
+* **Ambiente Controlado:** Testes realizados em rede estável (10 Mbps). Performance pode variar em redes mais lentas.
+* **Ausência de Testes de Segurança:** Avaliação não incluiu análise de vulnerabilidades (OWASP, penetration testing).
+* **Dados Estáticos:** Avaliação baseada em snapshot dos dados. Qualidade pode variar conforme atualizações da API governamental.
+
+---
+
+## 9. Conclusão
+
+O **DFemObras** demonstra ser um sistema de **alta qualidade** que cumpre efetivamente sua missão de promover transparência sobre obras públicas do Distrito Federal. 
+
+**Destaques Positivos:**
+- **Funcionalidade Excelente:** 100% de integridade de dados e 100% de completude informacional.
+- **Eficiência Superior:** Tempo de carregamento de 3.8s e uso otimizado de recursos (CPU 11.2%, RAM 9.7MB).
+- **Alta Disponibilidade:** 99.2% de uptime com infraestrutura Cloud escalável.
+- **Código Bem Estruturado:** Complexidade controlada (CCM=6.95) e documentação adequada (18.5%).
+
+**Ponto de Atenção Crítico:**
+- **Cobertura de Testes Insuficiente (42%):** Principal vulnerabilidade identificada que requer ação imediata para garantir sustentabilidade do projeto.
+
+**Avaliação Geral:** O sistema atende **10 de 11 hipóteses** definidas na [Fase 02](/2025-2_T01_GRACE_HOPPER/fases/fases02) (91% de sucesso), posicionando-se como uma **solução madura e confiável** para transparência pública, com um plano de ação claro para atingir excelência em todas as dimensões de qualidade.
+
+### Histórico de Versões
+
+| Versão | Data       | Autor(es)                          | Descrição das Alterações                                                     |
+|--------|------------|------------------------------------|------------------------------------------------------------------------------|
+| 1.0    | 23/10/2025 | Arthur Fonseca e José Felipe Oliveira                 | Criação do documento inicial.                                  |
+| 2.0    | 26/11/2025 | Carlos Eduardo | Remodelação Fase 04.  |   
+| 2.1    | 26/11/2025 | Carlos Eduardo | Remodelação Fase 04.  |                         
+
+---
